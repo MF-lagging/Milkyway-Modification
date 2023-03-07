@@ -1,0 +1,69 @@
+20:38:42 (6980): Can't open init data file - running in standalone mode
+<search_application> milkyway_nbody 1.85 Linux x86_64 double  OpenMP, Crlibm </search_application>
+Using OpenMP 8 max threads on a system with 12 processors
+Opening Lua script '/mnt/c/Users/guoy18/Newchange/settingss.lua' (2): No such file or directory
+Failed to read input parameters file
+20:38:42 (6980): called boinc_finish(13)
+20:39:10 (6995): Can't open init data file - running in standalone mode
+<search_application> milkyway_nbody 1.85 Linux x86_64 double  OpenMP, Crlibm </search_application>
+Using OpenMP 8 max threads on a system with 12 processors
+Opening Lua script '/mnt/c/Users/guoy18/Newchange/settingss.lua' (2): No such file or directory
+Failed to read input parameters file
+20:39:10 (6995): called boinc_finish(13)
+20:39:40 (7007): Can't open init data file - running in standalone mode
+<search_application> milkyway_nbody 1.85 Linux x86_64 double  OpenMP, Crlibm </search_application>
+Using OpenMP 8 max threads on a system with 12 processors
+Running MilkyWay@home Nbody v1.85
+Optimal Softening Length = 0.373945318306480 kpc
+Dwarf Initial Position: [-34.375055953159666,104.152234974946268,-20.716946238453204]
+Dwarf Initial Velocity: [9.468491711421557,92.047887884146391,-59.319309910185652]
+Initial LMC position: [82.245240275588799,509.425796198476291,-150.407601305508365]
+Initial LMC velocity: [-16.741582632867392,-129.695727529343941,7.340647956328183]
+Error evaluating makeBodies(): [string "-- /* Copyright (c) 2016-2018 Siddhartha Sh..."]:314: attempt to call global 'PrintReverseOrbit_LMC' (a nil value) 
+Failed to read input parameters file
+20:39:45 (7007): called boinc_finish(13)
+20:40:00 (7016): Can't open init data file - running in standalone mode
+<search_application> milkyway_nbody 1.85 Linux x86_64 double  OpenMP, Crlibm </search_application>
+Using OpenMP 8 max threads on a system with 12 processors
+Running MilkyWay@home Nbody v1.85
+Optimal Softening Length = 0.373945318306480 kpc
+Dwarf Initial Position: [-34.375055953159666,104.152234974946268,-20.716946238453204]
+Dwarf Initial Velocity: [9.468491711421557,92.047887884146391,-59.319309910185652]
+Initial LMC position: [82.245240275588799,509.425796198476291,-150.407601305508365]
+Initial LMC velocity: [-16.741582632867392,-129.695727529343941,7.340647956328183]
+Running MilkyWay@home Nbody v1.85
+Running MilkyWay@home Nbody v1.85
+Running MilkyWay@home Nbody v1.85
+20:40:12 (7016): called boinc_finish(0)
+20:42:38 (7032): Can't open init data file - running in standalone mode
+<search_application> milkyway_nbody 1.85 Linux x86_64 double  OpenMP, Crlibm </search_application>
+Using OpenMP 8 max threads on a system with 12 processors
+Running MilkyWay@home Nbody v1.85
+Optimal Softening Length = 0.217663885836385 kpc
+Dwarf Initial Position: [36.048777399146637,-48.034626355362640,-17.022426002525982]
+Dwarf Initial Velocity: [-129.815658194257878,58.294434588251860,111.818282984889422]
+Initial LMC position: [97.310031581780919,628.615310312937709,-154.781879597859643]
+Initial LMC velocity: [-13.510254179517188,-109.290604517306519,1.767101417864363]
+Running MilkyWay@home Nbody v1.85
+Running MilkyWay@home Nbody v1.85
+Running MilkyWay@home Nbody v1.85
+20:42:51 (7032): called boinc_finish(0)
+20:47:35 (7102): Can't open init data file - running in standalone mode
+<search_application> milkyway_nbody 1.85 Linux x86_64 double  OpenMP, Crlibm </search_application>
+Using OpenMP 8 max threads on a system with 12 processors
+Error loading Lua script '/mnt/c/Users/guoy18/Newchange/settings_gui_updated.lua': [string "-- /* Copyright (c) 2016-2018 Siddhartha Shelton */..."]:84: unexpected symbol near '>' 
+Failed to read input parameters file
+20:47:35 (7102): called boinc_finish(13)
+20:53:21 (7163): Can't open init data file - running in standalone mode
+<search_application> milkyway_nbody 1.85 Linux x86_64 double  OpenMP, Crlibm </search_application>
+Using OpenMP 8 max threads on a system with 12 processors
+Running MilkyWay@home Nbody v1.85
+Optimal Softening Length = 0.217663885836385 kpc
+Dwarf Initial Position: [36.048777399146637,-48.034626355362640,-17.022426002525982]
+Dwarf Initial Velocity: [-129.815658194257878,58.294434588251860,111.818282984889422]
+Initial LMC position: [97.310031581780919,628.615310312937709,-154.781879597859643]
+Initial LMC velocity: [-13.510254179517188,-109.290604517306519,1.767101417864363]
+Running MilkyWay@home Nbody v1.85
+Running MilkyWay@home Nbody v1.85
+Running MilkyWay@home Nbody v1.85
+20:53:34 (7163): called boinc_finish(0)

@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/libboinc_graphics2.a  CMakeFiles/boinc_graphics2.dir/boinc/api/graphics2.cpp.o CMakeFiles/boinc_graphics2.dir/boinc/api/graphics2_util.cpp.o
+/usr/bin/ranlib ../lib/libboinc_graphics2.a

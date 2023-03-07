@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/libboinc_api.a  CMakeFiles/boinc_api.dir/boinc/api/boinc_api.cpp.o
+/usr/bin/ranlib ../lib/libboinc_api.a

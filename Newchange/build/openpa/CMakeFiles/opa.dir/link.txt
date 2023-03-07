@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/libopa.a  CMakeFiles/opa.dir/src/opa_primitives.c.o CMakeFiles/opa.dir/src/opa_queue.c.o
+/usr/bin/ranlib ../lib/libopa.a

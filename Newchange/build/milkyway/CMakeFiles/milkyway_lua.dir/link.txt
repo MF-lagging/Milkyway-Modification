@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/libmilkyway_lua.a  CMakeFiles/milkyway_lua.dir/src/milkyway_lua_marshal.c.o CMakeFiles/milkyway_lua.dir/src/milkyway_lua_util.c.o CMakeFiles/milkyway_lua.dir/src/milkyway_lua_math.c.o CMakeFiles/milkyway_lua.dir/src/milkyway_lua_vector.c.o CMakeFiles/milkyway_lua.dir/src/milkyway_lua_dsfmt.c.o CMakeFiles/milkyway_lua.dir/src/milkyway_lua_types.c.o
+/usr/bin/ranlib ../lib/libmilkyway_lua.a

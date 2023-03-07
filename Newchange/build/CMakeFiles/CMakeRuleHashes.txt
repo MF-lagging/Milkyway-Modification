@@ -1,0 +1,6 @@
+# Hashes of file build rules.
+3660ecc9149f1a7699cf76e3c1968ca8 /mnt/c/Users/guoy18/Newchange/milkywayathome_client/boinc/boinc/svn_version.h
+04b763e1002a324f8f989c14f8e9aa25 CMakeFiles/app_info
+1d315671f54116b781e1734e102aba61 CMakeFiles/nbody_release
+12f3b165bfb187bcd508a94fbd410853 CMakeFiles/separation_release
+829275f90e5e8045b51723cd7ffad295 tools/app_info.xml

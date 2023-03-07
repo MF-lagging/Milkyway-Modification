@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/libdsfmt.a  CMakeFiles/dsfmt.dir/dSFMT.c.o
+/usr/bin/ranlib ../lib/libdsfmt.a

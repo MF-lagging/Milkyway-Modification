@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/libmilkyway.a  CMakeFiles/milkyway.dir/src/milkyway_util.c.o CMakeFiles/milkyway.dir/src/milkyway_alloc.c.o CMakeFiles/milkyway.dir/src/milkyway_rename.c.o CMakeFiles/milkyway.dir/src/milkyway_boinc_util.cc.o CMakeFiles/milkyway.dir/src/milkyway_show.c.o CMakeFiles/milkyway.dir/src/milkyway_cpuid.c.o CMakeFiles/milkyway.dir/src/milkyway_timing.c.o
+/usr/bin/ranlib ../lib/libmilkyway.a
