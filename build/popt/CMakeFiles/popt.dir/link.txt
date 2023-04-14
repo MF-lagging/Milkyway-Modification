@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/libpopt.a  CMakeFiles/popt.dir/src/popt.c.o CMakeFiles/popt.dir/src/poptparse.c.o CMakeFiles/popt.dir/src/poptconfig.c.o CMakeFiles/popt.dir/src/popthelp.c.o CMakeFiles/popt.dir/src/poptint.c.o
+/usr/bin/ranlib ../lib/libpopt.a

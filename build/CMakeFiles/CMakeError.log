@@ -1,0 +1,1669 @@
+Performing C SOURCE FILE Test HAVE_FP_MODEL_FAST failed with the following output:
+Change Dir: /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bfd3b/fast && /usr/bin/make -f CMakeFiles/cmTC_bfd3b.dir/build.make CMakeFiles/cmTC_bfd3b.dir/build
+make[1]: Entering directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bfd3b.dir/src.c.o
+/usr/bin/cc   -DHAVE_FP_MODEL_FAST   -fp-model fast -o CMakeFiles/cmTC_bfd3b.dir/src.c.o   -c /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp/src.c
+cc: error: fast: No such file or directory
+cc: error: unrecognized command line option '-fp-model'
+make[1]: *** [CMakeFiles/cmTC_bfd3b.dir/build.make:66: CMakeFiles/cmTC_bfd3b.dir/src.c.o] Error 1
+make[1]: Leaving directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_bfd3b/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_FP_MODEL_PRECISE failed with the following output:
+Change Dir: /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_99d3e/fast && /usr/bin/make -f CMakeFiles/cmTC_99d3e.dir/build.make CMakeFiles/cmTC_99d3e.dir/build
+make[1]: Entering directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_99d3e.dir/src.c.o
+/usr/bin/cc   -DHAVE_FP_MODEL_PRECISE   -fp-model precise -o CMakeFiles/cmTC_99d3e.dir/src.c.o   -c /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp/src.c
+cc: error: precise: No such file or directory
+cc: error: unrecognized command line option '-fp-model'
+make[1]: *** [CMakeFiles/cmTC_99d3e.dir/build.make:66: CMakeFiles/cmTC_99d3e.dir/src.c.o] Error 1
+make[1]: Leaving directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_99d3e/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_FLAG_-xc99 failed with the following output:
+Change Dir: /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ee478/fast && /usr/bin/make -f CMakeFiles/cmTC_ee478.dir/build.make CMakeFiles/cmTC_ee478.dir/build
+make[1]: Entering directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ee478.dir/src.c.o
+/usr/bin/cc   -static-libgcc -pthread -Wno-psabi -std=gnu99 -DHAVE_FLAG_-xc99   -xc99 -o CMakeFiles/cmTC_ee478.dir/src.c.o   -c /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp/src.c
+cc: error: language c99 not recognized
+cc: error: language c99 not recognized
+make[1]: *** [CMakeFiles/cmTC_ee478.dir/build.make:66: CMakeFiles/cmTC_ee478.dir/src.c.o] Error 1
+make[1]: Leaving directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_ee478/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_FLAG_M_SSE4_1 failed with the following output:
+Change Dir: /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_85f0d/fast && /usr/bin/make -f CMakeFiles/cmTC_85f0d.dir/build.make CMakeFiles/cmTC_85f0d.dir/build
+make[1]: Entering directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_85f0d.dir/src.c.o
+/usr/bin/cc   -static-libgcc -pthread -Wno-psabi -std=gnu99 -maccumulate-outgoing-args -fno-unsafe-math-optimizations -fno-common -funswitch-loops  -Wall -Wextra -Wshadow -Wredundant-decls -Winline -Wdisabled-optimization -Wpointer-arith -Wcast-align -Wstrict-aliasing -Wstrict-aliasing=3 -Wswitch-enum -Wswitch-default -Wfloat-equal -Wwrite-strings -Wcomment -Wno-unknown-pragmas -fno-rounding-math -fno-math-errno -freg-struct-return  -DHAVE_FLAG_M_SSE4_1   -msse4_1 -o CMakeFiles/cmTC_85f0d.dir/src.c.o   -c /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command line option '-msse4_1'; did you mean '-msse4.1'?
+make[1]: *** [CMakeFiles/cmTC_85f0d.dir/build.make:66: CMakeFiles/cmTC_85f0d.dir/src.c.o] Error 1
+make[1]: Leaving directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_85f0d/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_FLAG_M_NO_SSE4_1 failed with the following output:
+Change Dir: /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_efa6e/fast && /usr/bin/make -f CMakeFiles/cmTC_efa6e.dir/build.make CMakeFiles/cmTC_efa6e.dir/build
+make[1]: Entering directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_efa6e.dir/src.c.o
+/usr/bin/cc   -static-libgcc -pthread -Wno-psabi -std=gnu99 -maccumulate-outgoing-args -fno-unsafe-math-optimizations -fno-common -funswitch-loops  -Wall -Wextra -Wshadow -Wredundant-decls -Winline -Wdisabled-optimization -Wpointer-arith -Wcast-align -Wstrict-aliasing -Wstrict-aliasing=3 -Wswitch-enum -Wswitch-default -Wfloat-equal -Wwrite-strings -Wcomment -Wno-unknown-pragmas -fno-rounding-math -fno-math-errno -freg-struct-return  -DHAVE_FLAG_M_NO_SSE4_1   -mno-sse4_1 -o CMakeFiles/cmTC_efa6e.dir/src.c.o   -c /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command line option '-mno-sse4_1'; did you mean '-mno-sse4.1'?
+make[1]: *** [CMakeFiles/cmTC_efa6e.dir/build.make:66: CMakeFiles/cmTC_efa6e.dir/src.c.o] Error 1
+make[1]: Leaving directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_efa6e/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Determining if the function __secure_getenv exists failed with the following output:
+Change Dir: /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c7418/fast && /usr/bin/make -f CMakeFiles/cmTC_c7418.dir/build.make CMakeFiles/cmTC_c7418.dir/build
+make[1]: Entering directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c7418.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -static-libgcc -pthread -Wno-psabi -std=gnu99 -maccumulate-outgoing-args -fno-unsafe-math-optimizations -fno-common -funswitch-loops  -Wall -Wextra -Wshadow -Wredundant-decls -Winline -Wdisabled-optimization -Wpointer-arith -Wcast-align -Wstrict-aliasing -Wstrict-aliasing=3 -Wswitch-enum -Wswitch-default -Wfloat-equal -Wwrite-strings -Wcomment -Wno-unknown-pragmas -fno-rounding-math -fno-math-errno -freg-struct-return  -Wall -Wextra -std=gnu99 -DCHECK_FUNCTION_EXISTS=__secure_getenv   -o CMakeFiles/cmTC_c7418.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c7418
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7418.dir/link.txt --verbose=1
+/usr/bin/cc  -static-libgcc -pthread -Wno-psabi -std=gnu99 -maccumulate-outgoing-args -fno-unsafe-math-optimizations -fno-common -funswitch-loops  -Wall -Wextra -Wshadow -Wredundant-decls -Winline -Wdisabled-optimization -Wpointer-arith -Wcast-align -Wstrict-aliasing -Wstrict-aliasing=3 -Wswitch-enum -Wswitch-default -Wfloat-equal -Wwrite-strings -Wcomment -Wno-unknown-pragmas -fno-rounding-math -fno-math-errno -freg-struct-return  -Wall -Wextra -std=gnu99 -DCHECK_FUNCTION_EXISTS=__secure_getenv    -rdynamic CMakeFiles/cmTC_c7418.dir/CheckFunctionExists.c.o  -o cmTC_c7418 
+/usr/bin/ld: CMakeFiles/cmTC_c7418.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `__secure_getenv'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_c7418.dir/build.make:87: cmTC_c7418] Error 1
+make[1]: Leaving directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_c7418/fast] Error 2
+
+
+
+Determining if files atomic.h exist failed with the following output:
+Change Dir: /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_28057/fast && /usr/bin/make -f CMakeFiles/cmTC_28057.dir/build.make CMakeFiles/cmTC_28057.dir/build
+make[1]: Entering directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_28057.dir/OPA_HAVE_ATOMIC_H.c.o
+/usr/bin/cc   -static-libgcc -pthread -Wno-psabi -std=gnu99 -maccumulate-outgoing-args -fno-unsafe-math-optimizations -fno-common -funswitch-loops  -Wall -Wextra -Wshadow -Wredundant-decls -Winline -Wdisabled-optimization -Wpointer-arith -Wcast-align -Wstrict-aliasing -Wstrict-aliasing=3 -Wswitch-enum -Wswitch-default -Wfloat-equal -Wwrite-strings -Wcomment -Wno-unknown-pragmas -fno-rounding-math -fno-math-errno -freg-struct-return     -o CMakeFiles/cmTC_28057.dir/OPA_HAVE_ATOMIC_H.c.o   -c /mnt/c/Users/guoy18/change/build/CMakeFiles/CheckIncludeFiles/OPA_HAVE_ATOMIC_H.c
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckIncludeFiles/OPA_HAVE_ATOMIC_H.c:2:10: fatal error: atomic.h: No such file or directory
+    2 | #include <atomic.h>
+      |          ^~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_28057.dir/build.make:66: CMakeFiles/cmTC_28057.dir/OPA_HAVE_ATOMIC_H.c.o] Error 1
+make[1]: Leaving directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_28057/fast] Error 2
+
+
+Source:
+/* */
+#include <atomic.h>
+
+
+int main(void){return 0;}
+
+Determining if files intrin.h exist failed with the following output:
+Change Dir: /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bf683/fast && /usr/bin/make -f CMakeFiles/cmTC_bf683.dir/build.make CMakeFiles/cmTC_bf683.dir/build
+make[1]: Entering directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bf683.dir/OPA_HAVE_INTRIN_H.c.o
+/usr/bin/cc   -static-libgcc -pthread -Wno-psabi -std=gnu99 -maccumulate-outgoing-args -fno-unsafe-math-optimizations -fno-common -funswitch-loops  -Wall -Wextra -Wshadow -Wredundant-decls -Winline -Wdisabled-optimization -Wpointer-arith -Wcast-align -Wstrict-aliasing -Wstrict-aliasing=3 -Wswitch-enum -Wswitch-default -Wfloat-equal -Wwrite-strings -Wcomment -Wno-unknown-pragmas -fno-rounding-math -fno-math-errno -freg-struct-return     -o CMakeFiles/cmTC_bf683.dir/OPA_HAVE_INTRIN_H.c.o   -c /mnt/c/Users/guoy18/change/build/CMakeFiles/CheckIncludeFiles/OPA_HAVE_INTRIN_H.c
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckIncludeFiles/OPA_HAVE_INTRIN_H.c:2:10: fatal error: intrin.h: No such file or directory
+    2 | #include <intrin.h>
+      |          ^~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_bf683.dir/build.make:66: CMakeFiles/cmTC_bf683.dir/OPA_HAVE_INTRIN_H.c.o] Error 1
+make[1]: Leaving directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_bf683/fast] Error 2
+
+
+Source:
+/* */
+#include <intrin.h>
+
+
+int main(void){return 0;}
+
+Performing C SOURCE FILE Test ACCEPTS_BOGUS_ASM failed with the following output:
+Change Dir: /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_83b31/fast && /usr/bin/make -f CMakeFiles/cmTC_83b31.dir/build.make CMakeFiles/cmTC_83b31.dir/build
+make[1]: Entering directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_83b31.dir/src.c.o
+/usr/bin/cc   -static-libgcc -pthread -Wno-psabi -std=gnu99 -maccumulate-outgoing-args -fno-unsafe-math-optimizations -fno-common -funswitch-loops  -Wall -Wextra -Wshadow -Wredundant-decls -Winline -Wdisabled-optimization -Wpointer-arith -Wcast-align -Wstrict-aliasing -Wstrict-aliasing=3 -Wswitch-enum -Wswitch-default -Wfloat-equal -Wwrite-strings -Wcomment -Wno-unknown-pragmas -fno-rounding-math -fno-math-errno -freg-struct-return  -DACCEPTS_BOGUS_ASM   -o CMakeFiles/cmTC_83b31.dir/src.c.o   -c /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp/src.c
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp/src.c:2:18: warning: unused parameter ‘argc’ [-Wunused-parameter]
+    2 |     int main(int argc, const char* arv[])
+      |              ~~~~^~~~
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp/src.c:2:36: warning: unused parameter ‘arv’ [-Wunused-parameter]
+    2 |     int main(int argc, const char* arv[])
+      |                        ~~~~~~~~~~~~^~~~~
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp/src.c: Assembler messages:
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp/src.c:4: Error: no such instruction: `illegal_asm_stmt'
+make[1]: *** [CMakeFiles/cmTC_83b31.dir/build.make:66: CMakeFiles/cmTC_83b31.dir/src.c.o] Error 1
+make[1]: Leaving directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_83b31/fast] Error 2
+
+
+Source file was:
+
+    int main(int argc, const char* arv[])
+    {
+        __asm__("ILLEGAL_ASM_STMT");
+        return 0;
+    }
+  
+Performing C SOURCE FILE Test OPA_HAVE_GCC_AND_IA64_ASM failed with the following output:
+Change Dir: /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6cddc/fast && /usr/bin/make -f CMakeFiles/cmTC_6cddc.dir/build.make CMakeFiles/cmTC_6cddc.dir/build
+make[1]: Entering directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6cddc.dir/src.c.o
+/usr/bin/cc -DHAVE_GCC_ATTRIBUTE="" -DPRIM_HEADER=\"opa_gcc_ia64.h\" -DSIZEOF_INT=4 -DSIZEOF_VOID_P=8 -I/mnt/c/Users/guoy18/change/milkywayathome_client/openpa/include -I/mnt/c/Users/guoy18/change/milkywayathome_client/openpa/include/primitives  -static-libgcc -pthread -Wno-psabi -std=gnu99 -maccumulate-outgoing-args -fno-unsafe-math-optimizations -fno-common -funswitch-loops  -Wall -Wextra -Wshadow -Wredundant-decls -Winline -Wdisabled-optimization -Wpointer-arith -Wcast-align -Wstrict-aliasing -Wstrict-aliasing=3 -Wswitch-enum -Wswitch-default -Wfloat-equal -Wwrite-strings -Wcomment -Wno-unknown-pragmas -fno-rounding-math -fno-math-errno -freg-struct-return  -DOPA_HAVE_GCC_AND_IA64_ASM   -o CMakeFiles/cmTC_6cddc.dir/src.c.o   -c /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp/src.c
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp/src.c:26:13: warning: variable ‘c’ set but not used [-Wunused-but-set-variable]
+   26 |         int c;
+      |             ^
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp/src.c:23:18: warning: unused parameter ‘argc’ [-Wunused-parameter]
+   23 |     int main(int argc, const char* argv[])
+      |              ~~~~^~~~
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp/src.c:23:36: warning: unused parameter ‘argv’ [-Wunused-parameter]
+   23 |     int main(int argc, const char* argv[])
+      |                        ~~~~~~~~~~~~^~~~~~
+/mnt/c/Users/guoy18/change/milkywayathome_client/openpa/include/primitives/opa_gcc_ia64.h: Assembler messages:
+/mnt/c/Users/guoy18/change/milkywayathome_client/openpa/include/primitives/opa_gcc_ia64.h:52: Error: no such instruction: `fetchadd4.rel %eax=[%rax],$-1'
+/mnt/c/Users/guoy18/change/milkywayathome_client/openpa/include/primitives/opa_gcc_ia64.h:70: Error: no such instruction: `zxt4 (%rsi)=(%rsi)'
+/mnt/c/Users/guoy18/change/milkywayathome_client/openpa/include/primitives/opa_gcc_ia64.h:70: Error: invalid character '=' in operand 1
+/mnt/c/Users/guoy18/change/milkywayathome_client/openpa/include/primitives/opa_gcc_ia64.h:70: Error: no such instruction: `cmpxchg4.rel %eax=[%rdx],%ecx,ar.ccv'
+/mnt/c/Users/guoy18/change/milkywayathome_client/openpa/include/primitives/opa_gcc_ia64.h:100: Error: no such instruction: `fetchadd4.rel %eax=[%rax],$-16'
+/mnt/c/Users/guoy18/change/milkywayathome_client/openpa/include/primitives/opa_gcc_ia64.h:101: Error: no such instruction: `fetchadd4.rel %eax=[%rax],$-8'
+/mnt/c/Users/guoy18/change/milkywayathome_client/openpa/include/primitives/opa_gcc_ia64.h:102: Error: no such instruction: `fetchadd4.rel %eax=[%rax],$-4'
+/mnt/c/Users/guoy18/change/milkywayathome_client/openpa/include/primitives/opa_gcc_ia64.h:103: Error: no such instruction: `fetchadd4.rel %eax=[%rax],$-1'
+/mnt/c/Users/guoy18/change/milkywayathome_client/openpa/include/primitives/opa_gcc_ia64.h:104: Error: no such instruction: `fetchadd4.rel %eax=[%rax],$1'
+/mnt/c/Users/guoy18/change/milkywayathome_client/openpa/include/primitives/opa_gcc_ia64.h:105: Error: no such instruction: `fetchadd4.rel %eax=[%rax],$4'
+/mnt/c/Users/guoy18/change/milkywayathome_client/openpa/include/primitives/opa_gcc_ia64.h:106: Error: no such instruction: `fetchadd4.rel %eax=[%rax],$8'
+/mnt/c/Users/guoy18/change/milkywayathome_client/openpa/include/primitives/opa_gcc_ia64.h:107: Error: no such instruction: `fetchadd4.rel %eax=[%rax],$16'
+/mnt/c/Users/guoy18/change/milkywayathome_client/openpa/include/primitives/opa_gcc_ia64.h:146: Error: no such instruction: `xchg8 %eax=[%rdx],%eax'
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp/src.c:44: Error: no such instruction: `mf'
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp/src.c:45: Error: no such instruction: `mf'
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp/src.c:46: Error: no such instruction: `mf'
+make[1]: *** [CMakeFiles/cmTC_6cddc.dir/build.make:66: CMakeFiles/cmTC_6cddc.dir/src.c.o] Error 1
+make[1]: Leaving directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_6cddc/fast] Error 2
+
+
+Source file was:
+
+    #define OPA_SIZEOF_INT SIZEOF_INT
+    #define OPA_SIZEOF_VOID_P SIZEOF_VOID_P
+    #ifndef _opa_inline
+      #ifndef _MSC_VER
+        #define _opa_inline inline
+      #else
+        #define _opa_inline __inline
+      #endif
+    #endif
+    #ifndef _opa_restrict
+    #define _opa_restrict restrict
+    #endif
+    #ifndef _opa_const
+    #define _opa_const const
+    #endif
+    #ifdef HAVE_GCC_ATTRIBUTE
+    #define OPA_HAVE_GCC_ATTRIBUTE 1
+    #endif
+    #include "opa_util.h" /* for OPA_ATTRIBUTE and friends */
+    #include PRIM_HEADER
+
+    int main(int argc, const char* argv[])
+    {
+        OPA_int_t a, b;
+        int c;
+
+        OPA_store_int(&a, 0);
+        OPA_store_int(&b, 1);
+        c = OPA_load_int(&a);
+
+        OPA_add_int(&a, 10);
+        OPA_incr_int(&a);
+        OPA_decr_int(&a);
+
+        c = OPA_decr_and_test_int(&a);
+        c = OPA_fetch_and_add_int(&a, 10);
+        c = OPA_fetch_and_incr_int(&a);
+        c = OPA_fetch_and_decr_int(&a);
+
+        c = OPA_cas_int(&a, 10, 11);
+        c = OPA_swap_int(&a, OPA_load_int(&b));
+
+        OPA_write_barrier();
+        OPA_read_barrier();
+        OPA_read_write_barrier();
+
+        return 0;
+    }
+  
+Performing C SOURCE FILE Test OPA_HAVE_GCC_AND_POWERPC_ASM failed with the following output:
+Change Dir: /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6596f/fast && /usr/bin/make -f CMakeFiles/cmTC_6596f.dir/build.make CMakeFiles/cmTC_6596f.dir/build
+make[1]: Entering directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6596f.dir/src.c.o
+/usr/bin/cc -DHAVE_GCC_ATTRIBUTE="" -DPRIM_HEADER=\"opa_gcc_ppc.h\" -DSIZEOF_INT=4 -DSIZEOF_VOID_P=8 -I/mnt/c/Users/guoy18/change/milkywayathome_client/openpa/include -I/mnt/c/Users/guoy18/change/milkywayathome_client/openpa/include/primitives  -static-libgcc -pthread -Wno-psabi -std=gnu99 -maccumulate-outgoing-args -fno-unsafe-math-optimizations -fno-common -funswitch-loops  -Wall -Wextra -Wshadow -Wredundant-decls -Winline -Wdisabled-optimization -Wpointer-arith -Wcast-align -Wstrict-aliasing -Wstrict-aliasing=3 -Wswitch-enum -Wswitch-default -Wfloat-equal -Wwrite-strings -Wcomment -Wno-unknown-pragmas -fno-rounding-math -fno-math-errno -freg-struct-return  -DOPA_HAVE_GCC_AND_POWERPC_ASM   -o CMakeFiles/cmTC_6596f.dir/src.c.o   -c /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp/src.c
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp/src.c:26:13: warning: variable ‘c’ set but not used [-Wunused-but-set-variable]
+   26 |         int c;
+      |             ^
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp/src.c:23:18: warning: unused parameter ‘argc’ [-Wunused-parameter]
+   23 |     int main(int argc, const char* argv[])
+      |              ~~~~^~~~
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp/src.c:23:36: warning: unused parameter ‘argv’ [-Wunused-parameter]
+   23 |     int main(int argc, const char* argv[])
+      |                        ~~~~~~~~~~~~^~~~~~
+/mnt/c/Users/guoy18/change/milkywayathome_client/openpa/include/primitives/opa_gcc_ppc.h: Assembler messages:
+/mnt/c/Users/guoy18/change/milkywayathome_client/openpa/include/primitives/opa_gcc_ppc.h:50: Error: no such instruction: `lwarx %eax,0,%rax'
+/mnt/c/Users/guoy18/change/milkywayathome_client/openpa/include/primitives/opa_gcc_ppc.h:62: Error: no such instruction: `stwcx. %ecx,0,%rdx'
+/mnt/c/Users/guoy18/change/milkywayathome_client/openpa/include/primitives/opa_gcc_ppc.h:63: Error: no such instruction: `beq 1f'
+/mnt/c/Users/guoy18/change/milkywayathome_client/openpa/include/primitives/opa_gcc_ppc.h:64: Error: no such instruction: `li %eax,0'
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp/src.c:44: Error: no such instruction: `sync'
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp/src.c:45: Error: no such instruction: `sync'
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp/src.c:46: Error: no such instruction: `sync'
+make[1]: *** [CMakeFiles/cmTC_6596f.dir/build.make:66: CMakeFiles/cmTC_6596f.dir/src.c.o] Error 1
+make[1]: Leaving directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_6596f/fast] Error 2
+
+
+Source file was:
+
+    #define OPA_SIZEOF_INT SIZEOF_INT
+    #define OPA_SIZEOF_VOID_P SIZEOF_VOID_P
+    #ifndef _opa_inline
+      #ifndef _MSC_VER
+        #define _opa_inline inline
+      #else
+        #define _opa_inline __inline
+      #endif
+    #endif
+    #ifndef _opa_restrict
+    #define _opa_restrict restrict
+    #endif
+    #ifndef _opa_const
+    #define _opa_const const
+    #endif
+    #ifdef HAVE_GCC_ATTRIBUTE
+    #define OPA_HAVE_GCC_ATTRIBUTE 1
+    #endif
+    #include "opa_util.h" /* for OPA_ATTRIBUTE and friends */
+    #include PRIM_HEADER
+
+    int main(int argc, const char* argv[])
+    {
+        OPA_int_t a, b;
+        int c;
+
+        OPA_store_int(&a, 0);
+        OPA_store_int(&b, 1);
+        c = OPA_load_int(&a);
+
+        OPA_add_int(&a, 10);
+        OPA_incr_int(&a);
+        OPA_decr_int(&a);
+
+        c = OPA_decr_and_test_int(&a);
+        c = OPA_fetch_and_add_int(&a, 10);
+        c = OPA_fetch_and_incr_int(&a);
+        c = OPA_fetch_and_decr_int(&a);
+
+        c = OPA_cas_int(&a, 10, 11);
+        c = OPA_swap_int(&a, OPA_load_int(&b));
+
+        OPA_write_barrier();
+        OPA_read_barrier();
+        OPA_read_write_barrier();
+
+        return 0;
+    }
+  
+Performing C SOURCE FILE Test OPA_HAVE_GCC_AND_SICORTEX_ASM failed with the following output:
+Change Dir: /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4f4f2/fast && /usr/bin/make -f CMakeFiles/cmTC_4f4f2.dir/build.make CMakeFiles/cmTC_4f4f2.dir/build
+make[1]: Entering directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4f4f2.dir/src.c.o
+/usr/bin/cc -DHAVE_GCC_ATTRIBUTE="" -DPRIM_HEADER=\"opa_gcc_sicortex.h\" -DSIZEOF_INT=4 -DSIZEOF_VOID_P=8 -I/mnt/c/Users/guoy18/change/milkywayathome_client/openpa/include -I/mnt/c/Users/guoy18/change/milkywayathome_client/openpa/include/primitives  -static-libgcc -pthread -Wno-psabi -std=gnu99 -maccumulate-outgoing-args -fno-unsafe-math-optimizations -fno-common -funswitch-loops  -Wall -Wextra -Wshadow -Wredundant-decls -Winline -Wdisabled-optimization -Wpointer-arith -Wcast-align -Wstrict-aliasing -Wstrict-aliasing=3 -Wswitch-enum -Wswitch-default -Wfloat-equal -Wwrite-strings -Wcomment -Wno-unknown-pragmas -fno-rounding-math -fno-math-errno -freg-struct-return  -DOPA_HAVE_GCC_AND_SICORTEX_ASM   -o CMakeFiles/cmTC_4f4f2.dir/src.c.o   -c /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp/src.c
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp/src.c:26:13: warning: variable ‘c’ set but not used [-Wunused-but-set-variable]
+   26 |         int c;
+      |             ^
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp/src.c:23:18: warning: unused parameter ‘argc’ [-Wunused-parameter]
+   23 |     int main(int argc, const char* argv[])
+      |              ~~~~^~~~
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp/src.c:23:36: warning: unused parameter ‘argv’ [-Wunused-parameter]
+   23 |     int main(int argc, const char* argv[])
+      |                        ~~~~~~~~~~~~^~~~~~
+/mnt/c/Users/guoy18/change/milkywayathome_client/openpa/include/primitives/opa_gcc_sicortex.h: Assembler messages:
+/mnt/c/Users/guoy18/change/milkywayathome_client/openpa/include/primitives/opa_gcc_sicortex.h:100: Error: expected comma after "mips3"
+/mnt/c/Users/guoy18/change/milkywayathome_client/openpa/include/primitives/opa_gcc_sicortex.h:101: Error: expected comma after "noreorder"
+/mnt/c/Users/guoy18/change/milkywayathome_client/openpa/include/primitives/opa_gcc_sicortex.h:102: Error: no such instruction: `ll %rcx,(%rsi)'
+/mnt/c/Users/guoy18/change/milkywayathome_client/openpa/include/primitives/opa_gcc_sicortex.h:103: Error: no such instruction: `addu %rdx,%rcx,%eax'
+/mnt/c/Users/guoy18/change/milkywayathome_client/openpa/include/primitives/opa_gcc_sicortex.h:104: Error: no such instruction: `sc %rdx,(%rsi)'
+/mnt/c/Users/guoy18/change/milkywayathome_client/openpa/include/primitives/opa_gcc_sicortex.h:105: Error: no such instruction: `beqz %rdx,1b'
+/mnt/c/Users/guoy18/change/milkywayathome_client/openpa/include/primitives/opa_gcc_sicortex.h:107: Error: expected comma after "reorder"
+/mnt/c/Users/guoy18/change/milkywayathome_client/openpa/include/primitives/opa_gcc_sicortex.h:108: Error: expected comma after "mips0"
+/mnt/c/Users/guoy18/change/milkywayathome_client/openpa/include/primitives/opa_gcc_sicortex.h:184: Error: expected comma after "mips3"
+/mnt/c/Users/guoy18/change/milkywayathome_client/openpa/include/primitives/opa_gcc_sicortex.h:185: Error: expected comma after "noreorder"
+/mnt/c/Users/guoy18/change/milkywayathome_client/openpa/include/primitives/opa_gcc_sicortex.h:186: Error: no such instruction: `ll %rcx,(%rsi)'
+/mnt/c/Users/guoy18/change/milkywayathome_client/openpa/include/primitives/opa_gcc_sicortex.h:187: Error: no such instruction: `move %rdx,%eax'
+/mnt/c/Users/guoy18/change/milkywayathome_client/openpa/include/primitives/opa_gcc_sicortex.h:188: Error: no such instruction: `sc %rdx,(%rsi)'
+/mnt/c/Users/guoy18/change/milkywayathome_client/openpa/include/primitives/opa_gcc_sicortex.h:189: Error: no such instruction: `beqz %rdx,1b'
+/mnt/c/Users/guoy18/change/milkywayathome_client/openpa/include/primitives/opa_gcc_sicortex.h:191: Error: expected comma after "reorder"
+/mnt/c/Users/guoy18/change/milkywayathome_client/openpa/include/primitives/opa_gcc_sicortex.h:192: Error: expected comma after "mips0"
+/mnt/c/Users/guoy18/change/milkywayathome_client/openpa/include/primitives/opa_gcc_sicortex.h:271: Error: expected comma after "mips3"
+/mnt/c/Users/guoy18/change/milkywayathome_client/openpa/include/primitives/opa_gcc_sicortex.h:272: Error: expected comma after "noreorder"
+/mnt/c/Users/guoy18/change/milkywayathome_client/openpa/include/primitives/opa_gcc_sicortex.h:273: Error: no such instruction: `ll %rsi,(%rdi)'
+/mnt/c/Users/guoy18/change/milkywayathome_client/openpa/include/primitives/opa_gcc_sicortex.h:274: Error: no such instruction: `bne %rsi,%edx,1f'
+/mnt/c/Users/guoy18/change/milkywayathome_client/openpa/include/primitives/opa_gcc_sicortex.h:275: Error: no such instruction: `move %rcx,%eax'
+/mnt/c/Users/guoy18/change/milkywayathome_client/openpa/include/primitives/opa_gcc_sicortex.h:276: Error: no such instruction: `sc %rcx,(%rdi)'
+/mnt/c/Users/guoy18/change/milkywayathome_client/openpa/include/primitives/opa_gcc_sicortex.h:277: Error: no such instruction: `beqz %rcx,1b'
+/mnt/c/Users/guoy18/change/milkywayathome_client/openpa/include/primitives/opa_gcc_sicortex.h:279: Error: expected comma after "reorder"
+/mnt/c/Users/guoy18/change/milkywayathome_client/openpa/include/primitives/opa_gcc_sicortex.h:281: Error: expected comma after "mips0"
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp/src.c:44: Error: no such instruction: `sync'
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp/src.c:45: Error: no such instruction: `sync'
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp/src.c:46: Error: no such instruction: `sync'
+make[1]: *** [CMakeFiles/cmTC_4f4f2.dir/build.make:66: CMakeFiles/cmTC_4f4f2.dir/src.c.o] Error 1
+make[1]: Leaving directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_4f4f2/fast] Error 2
+
+
+Source file was:
+
+    #define OPA_SIZEOF_INT SIZEOF_INT
+    #define OPA_SIZEOF_VOID_P SIZEOF_VOID_P
+    #ifndef _opa_inline
+      #ifndef _MSC_VER
+        #define _opa_inline inline
+      #else
+        #define _opa_inline __inline
+      #endif
+    #endif
+    #ifndef _opa_restrict
+    #define _opa_restrict restrict
+    #endif
+    #ifndef _opa_const
+    #define _opa_const const
+    #endif
+    #ifdef HAVE_GCC_ATTRIBUTE
+    #define OPA_HAVE_GCC_ATTRIBUTE 1
+    #endif
+    #include "opa_util.h" /* for OPA_ATTRIBUTE and friends */
+    #include PRIM_HEADER
+
+    int main(int argc, const char* argv[])
+    {
+        OPA_int_t a, b;
+        int c;
+
+        OPA_store_int(&a, 0);
+        OPA_store_int(&b, 1);
+        c = OPA_load_int(&a);
+
+        OPA_add_int(&a, 10);
+        OPA_incr_int(&a);
+        OPA_decr_int(&a);
+
+        c = OPA_decr_and_test_int(&a);
+        c = OPA_fetch_and_add_int(&a, 10);
+        c = OPA_fetch_and_incr_int(&a);
+        c = OPA_fetch_and_decr_int(&a);
+
+        c = OPA_cas_int(&a, 10, 11);
+        c = OPA_swap_int(&a, OPA_load_int(&b));
+
+        OPA_write_barrier();
+        OPA_read_barrier();
+        OPA_read_write_barrier();
+
+        return 0;
+    }
+  
+Performing C SOURCE FILE Test OPA_HAVE_NT_INTRINSICS failed with the following output:
+Change Dir: /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_72bdd/fast && /usr/bin/make -f CMakeFiles/cmTC_72bdd.dir/build.make CMakeFiles/cmTC_72bdd.dir/build
+make[1]: Entering directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_72bdd.dir/src.c.o
+/usr/bin/cc -DHAVE_GCC_ATTRIBUTE="" -DPRIM_HEADER=\"opa_nt_intrinsics.h\" -DSIZEOF_INT=4 -DSIZEOF_VOID_P=8 -I/mnt/c/Users/guoy18/change/milkywayathome_client/openpa/include -I/mnt/c/Users/guoy18/change/milkywayathome_client/openpa/include/primitives  -static-libgcc -pthread -Wno-psabi -std=gnu99 -maccumulate-outgoing-args -fno-unsafe-math-optimizations -fno-common -funswitch-loops  -Wall -Wextra -Wshadow -Wredundant-decls -Winline -Wdisabled-optimization -Wpointer-arith -Wcast-align -Wstrict-aliasing -Wstrict-aliasing=3 -Wswitch-enum -Wswitch-default -Wfloat-equal -Wwrite-strings -Wcomment -Wno-unknown-pragmas -fno-rounding-math -fno-math-errno -freg-struct-return  -DOPA_HAVE_NT_INTRINSICS   -o CMakeFiles/cmTC_72bdd.dir/src.c.o   -c /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp/src.c
+In file included from /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp/src.c:21:
+/mnt/c/Users/guoy18/change/milkywayathome_client/openpa/include/primitives/opa_nt_intrinsics.h:13:9: fatal error: windows.h: No such file or directory
+   13 | #include<windows.h>
+      |         ^~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_72bdd.dir/build.make:66: CMakeFiles/cmTC_72bdd.dir/src.c.o] Error 1
+make[1]: Leaving directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_72bdd/fast] Error 2
+
+
+Source file was:
+
+    #define OPA_SIZEOF_INT SIZEOF_INT
+    #define OPA_SIZEOF_VOID_P SIZEOF_VOID_P
+    #ifndef _opa_inline
+      #ifndef _MSC_VER
+        #define _opa_inline inline
+      #else
+        #define _opa_inline __inline
+      #endif
+    #endif
+    #ifndef _opa_restrict
+    #define _opa_restrict restrict
+    #endif
+    #ifndef _opa_const
+    #define _opa_const const
+    #endif
+    #ifdef HAVE_GCC_ATTRIBUTE
+    #define OPA_HAVE_GCC_ATTRIBUTE 1
+    #endif
+    #include "opa_util.h" /* for OPA_ATTRIBUTE and friends */
+    #include PRIM_HEADER
+
+    int main(int argc, const char* argv[])
+    {
+        OPA_int_t a, b;
+        int c;
+
+        OPA_store_int(&a, 0);
+        OPA_store_int(&b, 1);
+        c = OPA_load_int(&a);
+
+        OPA_add_int(&a, 10);
+        OPA_incr_int(&a);
+        OPA_decr_int(&a);
+
+        c = OPA_decr_and_test_int(&a);
+        c = OPA_fetch_and_add_int(&a, 10);
+        c = OPA_fetch_and_incr_int(&a);
+        c = OPA_fetch_and_decr_int(&a);
+
+        c = OPA_cas_int(&a, 10, 11);
+        c = OPA_swap_int(&a, OPA_load_int(&b));
+
+        OPA_write_barrier();
+        OPA_read_barrier();
+        OPA_read_write_barrier();
+
+        return 0;
+    }
+  
+Performing C SOURCE FILE Test OPA_HAVE_SUN_ATOMIC_OPS failed with the following output:
+Change Dir: /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a095c/fast && /usr/bin/make -f CMakeFiles/cmTC_a095c.dir/build.make CMakeFiles/cmTC_a095c.dir/build
+make[1]: Entering directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a095c.dir/src.c.o
+/usr/bin/cc -DHAVE_GCC_ATTRIBUTE="" -DPRIM_HEADER=\"opa_sun_atomic_ops.h\" -DSIZEOF_INT=4 -DSIZEOF_VOID_P=8 -I/mnt/c/Users/guoy18/change/milkywayathome_client/openpa/include -I/mnt/c/Users/guoy18/change/milkywayathome_client/openpa/include/primitives  -static-libgcc -pthread -Wno-psabi -std=gnu99 -maccumulate-outgoing-args -fno-unsafe-math-optimizations -fno-common -funswitch-loops  -Wall -Wextra -Wshadow -Wredundant-decls -Winline -Wdisabled-optimization -Wpointer-arith -Wcast-align -Wstrict-aliasing -Wstrict-aliasing=3 -Wswitch-enum -Wswitch-default -Wfloat-equal -Wwrite-strings -Wcomment -Wno-unknown-pragmas -fno-rounding-math -fno-math-errno -freg-struct-return  -DOPA_HAVE_SUN_ATOMIC_OPS   -o CMakeFiles/cmTC_a095c.dir/src.c.o   -c /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp/src.c
+In file included from /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp/src.c:21:
+/mnt/c/Users/guoy18/change/milkywayathome_client/openpa/include/primitives/opa_sun_atomic_ops.h:11:10: fatal error: atomic.h: No such file or directory
+   11 | #include <atomic.h>
+      |          ^~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_a095c.dir/build.make:66: CMakeFiles/cmTC_a095c.dir/src.c.o] Error 1
+make[1]: Leaving directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_a095c/fast] Error 2
+
+
+Source file was:
+
+    #define OPA_SIZEOF_INT SIZEOF_INT
+    #define OPA_SIZEOF_VOID_P SIZEOF_VOID_P
+    #ifndef _opa_inline
+      #ifndef _MSC_VER
+        #define _opa_inline inline
+      #else
+        #define _opa_inline __inline
+      #endif
+    #endif
+    #ifndef _opa_restrict
+    #define _opa_restrict restrict
+    #endif
+    #ifndef _opa_const
+    #define _opa_const const
+    #endif
+    #ifdef HAVE_GCC_ATTRIBUTE
+    #define OPA_HAVE_GCC_ATTRIBUTE 1
+    #endif
+    #include "opa_util.h" /* for OPA_ATTRIBUTE and friends */
+    #include PRIM_HEADER
+
+    int main(int argc, const char* argv[])
+    {
+        OPA_int_t a, b;
+        int c;
+
+        OPA_store_int(&a, 0);
+        OPA_store_int(&b, 1);
+        c = OPA_load_int(&a);
+
+        OPA_add_int(&a, 10);
+        OPA_incr_int(&a);
+        OPA_decr_int(&a);
+
+        c = OPA_decr_and_test_int(&a);
+        c = OPA_fetch_and_add_int(&a, 10);
+        c = OPA_fetch_and_incr_int(&a);
+        c = OPA_fetch_and_decr_int(&a);
+
+        c = OPA_cas_int(&a, 10, 11);
+        c = OPA_swap_int(&a, OPA_load_int(&b));
+
+        OPA_write_barrier();
+        OPA_read_barrier();
+        OPA_read_write_barrier();
+
+        return 0;
+    }
+  
+Determining if files winternl.h exist failed with the following output:
+Change Dir: /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2970c/fast && /usr/bin/make -f CMakeFiles/cmTC_2970c.dir/build.make CMakeFiles/cmTC_2970c.dir/build
+make[1]: Entering directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2970c.dir/HAVE_WINTERNL_H.c.o
+/usr/bin/cc   -static-libgcc -pthread -Wno-psabi -std=gnu99 -maccumulate-outgoing-args -fno-unsafe-math-optimizations -fno-common -funswitch-loops  -Wall -Wextra -Wshadow -Wredundant-decls -Winline -Wdisabled-optimization -Wpointer-arith -Wcast-align -Wstrict-aliasing -Wstrict-aliasing=3 -Wswitch-enum -Wswitch-default -Wfloat-equal -Wwrite-strings -Wcomment -Wno-unknown-pragmas -fno-rounding-math -fno-math-errno -freg-struct-return     -o CMakeFiles/cmTC_2970c.dir/HAVE_WINTERNL_H.c.o   -c /mnt/c/Users/guoy18/change/build/CMakeFiles/CheckIncludeFiles/HAVE_WINTERNL_H.c
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckIncludeFiles/HAVE_WINTERNL_H.c:2:10: fatal error: winternl.h: No such file or directory
+    2 | #include <winternl.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_2970c.dir/build.make:66: CMakeFiles/cmTC_2970c.dir/HAVE_WINTERNL_H.c.o] Error 1
+make[1]: Leaving directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_2970c/fast] Error 2
+
+
+Source:
+/* */
+#include <winternl.h>
+
+
+int main(void){return 0;}
+
+Determining if files GLUT/glut.h exist failed with the following output:
+Change Dir: /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4c8e5/fast && /usr/bin/make -f CMakeFiles/cmTC_4c8e5.dir/build.make CMakeFiles/cmTC_4c8e5.dir/build
+make[1]: Entering directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4c8e5.dir/HAVE_GLUT_GLUT_H.c.o
+/usr/bin/cc   -static-libgcc -pthread -Wno-psabi -std=gnu99 -maccumulate-outgoing-args -fno-unsafe-math-optimizations -fno-common -funswitch-loops  -Wall -Wextra -Wshadow -Wredundant-decls -Winline -Wdisabled-optimization -Wpointer-arith -Wcast-align -Wstrict-aliasing -Wstrict-aliasing=3 -Wswitch-enum -Wswitch-default -Wfloat-equal -Wwrite-strings -Wcomment -Wno-unknown-pragmas -fno-rounding-math -fno-math-errno -freg-struct-return     -o CMakeFiles/cmTC_4c8e5.dir/HAVE_GLUT_GLUT_H.c.o   -c /mnt/c/Users/guoy18/change/build/CMakeFiles/CheckIncludeFiles/HAVE_GLUT_GLUT_H.c
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckIncludeFiles/HAVE_GLUT_GLUT_H.c:2:10: fatal error: GLUT/glut.h: No such file or directory
+    2 | #include <GLUT/glut.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_4c8e5.dir/build.make:66: CMakeFiles/cmTC_4c8e5.dir/HAVE_GLUT_GLUT_H.c.o] Error 1
+make[1]: Leaving directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_4c8e5/fast] Error 2
+
+
+Source:
+/* */
+#include <GLUT/glut.h>
+
+
+int main(void){return 0;}
+
+Determining if files glut.h exist failed with the following output:
+Change Dir: /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d401a/fast && /usr/bin/make -f CMakeFiles/cmTC_d401a.dir/build.make CMakeFiles/cmTC_d401a.dir/build
+make[1]: Entering directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d401a.dir/HAVE_GLUT_H.c.o
+/usr/bin/cc   -static-libgcc -pthread -Wno-psabi -std=gnu99 -maccumulate-outgoing-args -fno-unsafe-math-optimizations -fno-common -funswitch-loops  -Wall -Wextra -Wshadow -Wredundant-decls -Winline -Wdisabled-optimization -Wpointer-arith -Wcast-align -Wstrict-aliasing -Wstrict-aliasing=3 -Wswitch-enum -Wswitch-default -Wfloat-equal -Wwrite-strings -Wcomment -Wno-unknown-pragmas -fno-rounding-math -fno-math-errno -freg-struct-return     -o CMakeFiles/cmTC_d401a.dir/HAVE_GLUT_H.c.o   -c /mnt/c/Users/guoy18/change/build/CMakeFiles/CheckIncludeFiles/HAVE_GLUT_H.c
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckIncludeFiles/HAVE_GLUT_H.c:2:10: fatal error: glut.h: No such file or directory
+    2 | #include <glut.h>
+      |          ^~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_d401a.dir/build.make:66: CMakeFiles/cmTC_d401a.dir/HAVE_GLUT_H.c.o] Error 1
+make[1]: Leaving directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_d401a/fast] Error 2
+
+
+Source:
+/* */
+#include <glut.h>
+
+
+int main(void){return 0;}
+
+Determining if files glu.h exist failed with the following output:
+Change Dir: /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a0921/fast && /usr/bin/make -f CMakeFiles/cmTC_a0921.dir/build.make CMakeFiles/cmTC_a0921.dir/build
+make[1]: Entering directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a0921.dir/HAVE_GLU_H.c.o
+/usr/bin/cc   -static-libgcc -pthread -Wno-psabi -std=gnu99 -maccumulate-outgoing-args -fno-unsafe-math-optimizations -fno-common -funswitch-loops  -Wall -Wextra -Wshadow -Wredundant-decls -Winline -Wdisabled-optimization -Wpointer-arith -Wcast-align -Wstrict-aliasing -Wstrict-aliasing=3 -Wswitch-enum -Wswitch-default -Wfloat-equal -Wwrite-strings -Wcomment -Wno-unknown-pragmas -fno-rounding-math -fno-math-errno -freg-struct-return     -o CMakeFiles/cmTC_a0921.dir/HAVE_GLU_H.c.o   -c /mnt/c/Users/guoy18/change/build/CMakeFiles/CheckIncludeFiles/HAVE_GLU_H.c
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckIncludeFiles/HAVE_GLU_H.c:2:10: fatal error: glu.h: No such file or directory
+    2 | #include <glu.h>
+      |          ^~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_a0921.dir/build.make:66: CMakeFiles/cmTC_a0921.dir/HAVE_GLU_H.c.o] Error 1
+make[1]: Leaving directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_a0921/fast] Error 2
+
+
+Source:
+/* */
+#include <glu.h>
+
+
+int main(void){return 0;}
+
+Determining if files GL/glaux.h exist failed with the following output:
+Change Dir: /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_48376/fast && /usr/bin/make -f CMakeFiles/cmTC_48376.dir/build.make CMakeFiles/cmTC_48376.dir/build
+make[1]: Entering directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_48376.dir/HAVE_GLAUX_H.c.o
+/usr/bin/cc   -static-libgcc -pthread -Wno-psabi -std=gnu99 -maccumulate-outgoing-args -fno-unsafe-math-optimizations -fno-common -funswitch-loops  -Wall -Wextra -Wshadow -Wredundant-decls -Winline -Wdisabled-optimization -Wpointer-arith -Wcast-align -Wstrict-aliasing -Wstrict-aliasing=3 -Wswitch-enum -Wswitch-default -Wfloat-equal -Wwrite-strings -Wcomment -Wno-unknown-pragmas -fno-rounding-math -fno-math-errno -freg-struct-return     -o CMakeFiles/cmTC_48376.dir/HAVE_GLAUX_H.c.o   -c /mnt/c/Users/guoy18/change/build/CMakeFiles/CheckIncludeFiles/HAVE_GLAUX_H.c
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckIncludeFiles/HAVE_GLAUX_H.c:2:10: fatal error: GL/glaux.h: No such file or directory
+    2 | #include <GL/glaux.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_48376.dir/build.make:66: CMakeFiles/cmTC_48376.dir/HAVE_GLAUX_H.c.o] Error 1
+make[1]: Leaving directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_48376/fast] Error 2
+
+
+Source:
+/* */
+#include <GL/glaux.h>
+
+
+int main(void){return 0;}
+
+Determining if files GL/glut.h exist failed with the following output:
+Change Dir: /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0f44a/fast && /usr/bin/make -f CMakeFiles/cmTC_0f44a.dir/build.make CMakeFiles/cmTC_0f44a.dir/build
+make[1]: Entering directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0f44a.dir/HAVE_GL_GLUT_H.c.o
+/usr/bin/cc   -static-libgcc -pthread -Wno-psabi -std=gnu99 -maccumulate-outgoing-args -fno-unsafe-math-optimizations -fno-common -funswitch-loops  -Wall -Wextra -Wshadow -Wredundant-decls -Winline -Wdisabled-optimization -Wpointer-arith -Wcast-align -Wstrict-aliasing -Wstrict-aliasing=3 -Wswitch-enum -Wswitch-default -Wfloat-equal -Wwrite-strings -Wcomment -Wno-unknown-pragmas -fno-rounding-math -fno-math-errno -freg-struct-return     -o CMakeFiles/cmTC_0f44a.dir/HAVE_GL_GLUT_H.c.o   -c /mnt/c/Users/guoy18/change/build/CMakeFiles/CheckIncludeFiles/HAVE_GL_GLUT_H.c
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckIncludeFiles/HAVE_GL_GLUT_H.c:2:10: fatal error: GL/glut.h: No such file or directory
+    2 | #include <GL/glut.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_0f44a.dir/build.make:66: CMakeFiles/cmTC_0f44a.dir/HAVE_GL_GLUT_H.c.o] Error 1
+make[1]: Leaving directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_0f44a/fast] Error 2
+
+
+Source:
+/* */
+#include <GL/glut.h>
+
+
+int main(void){return 0;}
+
+Determining if files GL/glu.h exist failed with the following output:
+Change Dir: /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ac9af/fast && /usr/bin/make -f CMakeFiles/cmTC_ac9af.dir/build.make CMakeFiles/cmTC_ac9af.dir/build
+make[1]: Entering directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ac9af.dir/HAVE_GL_GLU_H.c.o
+/usr/bin/cc   -static-libgcc -pthread -Wno-psabi -std=gnu99 -maccumulate-outgoing-args -fno-unsafe-math-optimizations -fno-common -funswitch-loops  -Wall -Wextra -Wshadow -Wredundant-decls -Winline -Wdisabled-optimization -Wpointer-arith -Wcast-align -Wstrict-aliasing -Wstrict-aliasing=3 -Wswitch-enum -Wswitch-default -Wfloat-equal -Wwrite-strings -Wcomment -Wno-unknown-pragmas -fno-rounding-math -fno-math-errno -freg-struct-return     -o CMakeFiles/cmTC_ac9af.dir/HAVE_GL_GLU_H.c.o   -c /mnt/c/Users/guoy18/change/build/CMakeFiles/CheckIncludeFiles/HAVE_GL_GLU_H.c
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckIncludeFiles/HAVE_GL_GLU_H.c:2:10: fatal error: GL/glu.h: No such file or directory
+    2 | #include <GL/glu.h>
+      |          ^~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_ac9af.dir/build.make:66: CMakeFiles/cmTC_ac9af.dir/HAVE_GL_GLU_H.c.o] Error 1
+make[1]: Leaving directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_ac9af/fast] Error 2
+
+
+Source:
+/* */
+#include <GL/glu.h>
+
+
+int main(void){return 0;}
+
+Determining if files GL/gl.h exist failed with the following output:
+Change Dir: /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8863b/fast && /usr/bin/make -f CMakeFiles/cmTC_8863b.dir/build.make CMakeFiles/cmTC_8863b.dir/build
+make[1]: Entering directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8863b.dir/HAVE_GL_GL_H.c.o
+/usr/bin/cc   -static-libgcc -pthread -Wno-psabi -std=gnu99 -maccumulate-outgoing-args -fno-unsafe-math-optimizations -fno-common -funswitch-loops  -Wall -Wextra -Wshadow -Wredundant-decls -Winline -Wdisabled-optimization -Wpointer-arith -Wcast-align -Wstrict-aliasing -Wstrict-aliasing=3 -Wswitch-enum -Wswitch-default -Wfloat-equal -Wwrite-strings -Wcomment -Wno-unknown-pragmas -fno-rounding-math -fno-math-errno -freg-struct-return     -o CMakeFiles/cmTC_8863b.dir/HAVE_GL_GL_H.c.o   -c /mnt/c/Users/guoy18/change/build/CMakeFiles/CheckIncludeFiles/HAVE_GL_GL_H.c
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckIncludeFiles/HAVE_GL_GL_H.c:2:10: fatal error: GL/gl.h: No such file or directory
+    2 | #include <GL/gl.h>
+      |          ^~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_8863b.dir/build.make:66: CMakeFiles/cmTC_8863b.dir/HAVE_GL_GL_H.c.o] Error 1
+make[1]: Leaving directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_8863b/fast] Error 2
+
+
+Source:
+/* */
+#include <GL/gl.h>
+
+
+int main(void){return 0;}
+
+Determining if files gl.h exist failed with the following output:
+Change Dir: /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ecf4a/fast && /usr/bin/make -f CMakeFiles/cmTC_ecf4a.dir/build.make CMakeFiles/cmTC_ecf4a.dir/build
+make[1]: Entering directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ecf4a.dir/HAVE_GL_H.c.o
+/usr/bin/cc   -static-libgcc -pthread -Wno-psabi -std=gnu99 -maccumulate-outgoing-args -fno-unsafe-math-optimizations -fno-common -funswitch-loops  -Wall -Wextra -Wshadow -Wredundant-decls -Winline -Wdisabled-optimization -Wpointer-arith -Wcast-align -Wstrict-aliasing -Wstrict-aliasing=3 -Wswitch-enum -Wswitch-default -Wfloat-equal -Wwrite-strings -Wcomment -Wno-unknown-pragmas -fno-rounding-math -fno-math-errno -freg-struct-return     -o CMakeFiles/cmTC_ecf4a.dir/HAVE_GL_H.c.o   -c /mnt/c/Users/guoy18/change/build/CMakeFiles/CheckIncludeFiles/HAVE_GL_H.c
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckIncludeFiles/HAVE_GL_H.c:2:10: fatal error: gl.h: No such file or directory
+    2 | #include <gl.h>
+      |          ^~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_ecf4a.dir/build.make:66: CMakeFiles/cmTC_ecf4a.dir/HAVE_GL_H.c.o] Error 1
+make[1]: Leaving directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_ecf4a/fast] Error 2
+
+
+Source:
+/* */
+#include <gl.h>
+
+
+int main(void){return 0;}
+
+Determining if files OpenGL/glaux.h exist failed with the following output:
+Change Dir: /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2bca8/fast && /usr/bin/make -f CMakeFiles/cmTC_2bca8.dir/build.make CMakeFiles/cmTC_2bca8.dir/build
+make[1]: Entering directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2bca8.dir/HAVE_OPENGL_GLAUX_H.c.o
+/usr/bin/cc   -static-libgcc -pthread -Wno-psabi -std=gnu99 -maccumulate-outgoing-args -fno-unsafe-math-optimizations -fno-common -funswitch-loops  -Wall -Wextra -Wshadow -Wredundant-decls -Winline -Wdisabled-optimization -Wpointer-arith -Wcast-align -Wstrict-aliasing -Wstrict-aliasing=3 -Wswitch-enum -Wswitch-default -Wfloat-equal -Wwrite-strings -Wcomment -Wno-unknown-pragmas -fno-rounding-math -fno-math-errno -freg-struct-return     -o CMakeFiles/cmTC_2bca8.dir/HAVE_OPENGL_GLAUX_H.c.o   -c /mnt/c/Users/guoy18/change/build/CMakeFiles/CheckIncludeFiles/HAVE_OPENGL_GLAUX_H.c
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckIncludeFiles/HAVE_OPENGL_GLAUX_H.c:2:10: fatal error: OpenGL/glaux.h: No such file or directory
+    2 | #include <OpenGL/glaux.h>
+      |          ^~~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_2bca8.dir/build.make:66: CMakeFiles/cmTC_2bca8.dir/HAVE_OPENGL_GLAUX_H.c.o] Error 1
+make[1]: Leaving directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_2bca8/fast] Error 2
+
+
+Source:
+/* */
+#include <OpenGL/glaux.h>
+
+
+int main(void){return 0;}
+
+Determining if files OpenGL/glut.h exist failed with the following output:
+Change Dir: /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6ae64/fast && /usr/bin/make -f CMakeFiles/cmTC_6ae64.dir/build.make CMakeFiles/cmTC_6ae64.dir/build
+make[1]: Entering directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6ae64.dir/HAVE_OPENGL_GLUT_H.c.o
+/usr/bin/cc   -static-libgcc -pthread -Wno-psabi -std=gnu99 -maccumulate-outgoing-args -fno-unsafe-math-optimizations -fno-common -funswitch-loops  -Wall -Wextra -Wshadow -Wredundant-decls -Winline -Wdisabled-optimization -Wpointer-arith -Wcast-align -Wstrict-aliasing -Wstrict-aliasing=3 -Wswitch-enum -Wswitch-default -Wfloat-equal -Wwrite-strings -Wcomment -Wno-unknown-pragmas -fno-rounding-math -fno-math-errno -freg-struct-return     -o CMakeFiles/cmTC_6ae64.dir/HAVE_OPENGL_GLUT_H.c.o   -c /mnt/c/Users/guoy18/change/build/CMakeFiles/CheckIncludeFiles/HAVE_OPENGL_GLUT_H.c
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckIncludeFiles/HAVE_OPENGL_GLUT_H.c:2:10: fatal error: OpenGL/glut.h: No such file or directory
+    2 | #include <OpenGL/glut.h>
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_6ae64.dir/build.make:66: CMakeFiles/cmTC_6ae64.dir/HAVE_OPENGL_GLUT_H.c.o] Error 1
+make[1]: Leaving directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_6ae64/fast] Error 2
+
+
+Source:
+/* */
+#include <OpenGL/glut.h>
+
+
+int main(void){return 0;}
+
+Determining if files OpenGL/glu.h exist failed with the following output:
+Change Dir: /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_85cfb/fast && /usr/bin/make -f CMakeFiles/cmTC_85cfb.dir/build.make CMakeFiles/cmTC_85cfb.dir/build
+make[1]: Entering directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_85cfb.dir/HAVE_OPENGL_GLU_H.c.o
+/usr/bin/cc   -static-libgcc -pthread -Wno-psabi -std=gnu99 -maccumulate-outgoing-args -fno-unsafe-math-optimizations -fno-common -funswitch-loops  -Wall -Wextra -Wshadow -Wredundant-decls -Winline -Wdisabled-optimization -Wpointer-arith -Wcast-align -Wstrict-aliasing -Wstrict-aliasing=3 -Wswitch-enum -Wswitch-default -Wfloat-equal -Wwrite-strings -Wcomment -Wno-unknown-pragmas -fno-rounding-math -fno-math-errno -freg-struct-return     -o CMakeFiles/cmTC_85cfb.dir/HAVE_OPENGL_GLU_H.c.o   -c /mnt/c/Users/guoy18/change/build/CMakeFiles/CheckIncludeFiles/HAVE_OPENGL_GLU_H.c
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckIncludeFiles/HAVE_OPENGL_GLU_H.c:2:10: fatal error: OpenGL/glu.h: No such file or directory
+    2 | #include <OpenGL/glu.h>
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_85cfb.dir/build.make:66: CMakeFiles/cmTC_85cfb.dir/HAVE_OPENGL_GLU_H.c.o] Error 1
+make[1]: Leaving directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_85cfb/fast] Error 2
+
+
+Source:
+/* */
+#include <OpenGL/glu.h>
+
+
+int main(void){return 0;}
+
+Determining if files OpenGL/gl.h exist failed with the following output:
+Change Dir: /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cc2c9/fast && /usr/bin/make -f CMakeFiles/cmTC_cc2c9.dir/build.make CMakeFiles/cmTC_cc2c9.dir/build
+make[1]: Entering directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cc2c9.dir/HAVE_OPENGL_GL_H.c.o
+/usr/bin/cc   -static-libgcc -pthread -Wno-psabi -std=gnu99 -maccumulate-outgoing-args -fno-unsafe-math-optimizations -fno-common -funswitch-loops  -Wall -Wextra -Wshadow -Wredundant-decls -Winline -Wdisabled-optimization -Wpointer-arith -Wcast-align -Wstrict-aliasing -Wstrict-aliasing=3 -Wswitch-enum -Wswitch-default -Wfloat-equal -Wwrite-strings -Wcomment -Wno-unknown-pragmas -fno-rounding-math -fno-math-errno -freg-struct-return     -o CMakeFiles/cmTC_cc2c9.dir/HAVE_OPENGL_GL_H.c.o   -c /mnt/c/Users/guoy18/change/build/CMakeFiles/CheckIncludeFiles/HAVE_OPENGL_GL_H.c
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckIncludeFiles/HAVE_OPENGL_GL_H.c:2:10: fatal error: OpenGL/gl.h: No such file or directory
+    2 | #include <OpenGL/gl.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_cc2c9.dir/build.make:66: CMakeFiles/cmTC_cc2c9.dir/HAVE_OPENGL_GL_H.c.o] Error 1
+make[1]: Leaving directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_cc2c9/fast] Error 2
+
+
+Source:
+/* */
+#include <OpenGL/gl.h>
+
+
+int main(void){return 0;}
+
+Determining if files ieeefp.h exist failed with the following output:
+Change Dir: /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_13ea6/fast && /usr/bin/make -f CMakeFiles/cmTC_13ea6.dir/build.make CMakeFiles/cmTC_13ea6.dir/build
+make[1]: Entering directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_13ea6.dir/HAVE_IEEEFP_H.c.o
+/usr/bin/cc   -static-libgcc -pthread -Wno-psabi -std=gnu99 -maccumulate-outgoing-args -fno-unsafe-math-optimizations -fno-common -funswitch-loops  -Wall -Wextra -Wshadow -Wredundant-decls -Winline -Wdisabled-optimization -Wpointer-arith -Wcast-align -Wstrict-aliasing -Wstrict-aliasing=3 -Wswitch-enum -Wswitch-default -Wfloat-equal -Wwrite-strings -Wcomment -Wno-unknown-pragmas -fno-rounding-math -fno-math-errno -freg-struct-return     -o CMakeFiles/cmTC_13ea6.dir/HAVE_IEEEFP_H.c.o   -c /mnt/c/Users/guoy18/change/build/CMakeFiles/CheckIncludeFiles/HAVE_IEEEFP_H.c
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckIncludeFiles/HAVE_IEEEFP_H.c:2:10: fatal error: ieeefp.h: No such file or directory
+    2 | #include <ieeefp.h>
+      |          ^~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_13ea6.dir/build.make:66: CMakeFiles/cmTC_13ea6.dir/HAVE_IEEEFP_H.c.o] Error 1
+make[1]: Leaving directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_13ea6/fast] Error 2
+
+
+Source:
+/* */
+#include <ieeefp.h>
+
+
+int main(void){return 0;}
+
+Determining if files procfs.h exist failed with the following output:
+Change Dir: /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_573e9/fast && /usr/bin/make -f CMakeFiles/cmTC_573e9.dir/build.make CMakeFiles/cmTC_573e9.dir/build
+make[1]: Entering directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_573e9.dir/HAVE_PROCFS_H.c.o
+/usr/bin/cc   -static-libgcc -pthread -Wno-psabi -std=gnu99 -maccumulate-outgoing-args -fno-unsafe-math-optimizations -fno-common -funswitch-loops  -Wall -Wextra -Wshadow -Wredundant-decls -Winline -Wdisabled-optimization -Wpointer-arith -Wcast-align -Wstrict-aliasing -Wstrict-aliasing=3 -Wswitch-enum -Wswitch-default -Wfloat-equal -Wwrite-strings -Wcomment -Wno-unknown-pragmas -fno-rounding-math -fno-math-errno -freg-struct-return     -o CMakeFiles/cmTC_573e9.dir/HAVE_PROCFS_H.c.o   -c /mnt/c/Users/guoy18/change/build/CMakeFiles/CheckIncludeFiles/HAVE_PROCFS_H.c
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckIncludeFiles/HAVE_PROCFS_H.c:2:10: fatal error: procfs.h: No such file or directory
+    2 | #include <procfs.h>
+      |          ^~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_573e9.dir/build.make:66: CMakeFiles/cmTC_573e9.dir/HAVE_PROCFS_H.c.o] Error 1
+make[1]: Leaving directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_573e9/fast] Error 2
+
+
+Source:
+/* */
+#include <procfs.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/sockio.h exist failed with the following output:
+Change Dir: /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7b782/fast && /usr/bin/make -f CMakeFiles/cmTC_7b782.dir/build.make CMakeFiles/cmTC_7b782.dir/build
+make[1]: Entering directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7b782.dir/HAVE_SYS_SOCKIO_H.c.o
+/usr/bin/cc   -static-libgcc -pthread -Wno-psabi -std=gnu99 -maccumulate-outgoing-args -fno-unsafe-math-optimizations -fno-common -funswitch-loops  -Wall -Wextra -Wshadow -Wredundant-decls -Winline -Wdisabled-optimization -Wpointer-arith -Wcast-align -Wstrict-aliasing -Wstrict-aliasing=3 -Wswitch-enum -Wswitch-default -Wfloat-equal -Wwrite-strings -Wcomment -Wno-unknown-pragmas -fno-rounding-math -fno-math-errno -freg-struct-return     -o CMakeFiles/cmTC_7b782.dir/HAVE_SYS_SOCKIO_H.c.o   -c /mnt/c/Users/guoy18/change/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_SOCKIO_H.c
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_SOCKIO_H.c:2:10: fatal error: sys/sockio.h: No such file or directory
+    2 | #include <sys/sockio.h>
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_7b782.dir/build.make:66: CMakeFiles/cmTC_7b782.dir/HAVE_SYS_SOCKIO_H.c.o] Error 1
+make[1]: Leaving directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_7b782/fast] Error 2
+
+
+Source:
+/* */
+#include <sys/sockio.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/systeminfo.h exist failed with the following output:
+Change Dir: /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_dafbe/fast && /usr/bin/make -f CMakeFiles/cmTC_dafbe.dir/build.make CMakeFiles/cmTC_dafbe.dir/build
+make[1]: Entering directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dafbe.dir/HAVE_SYS_SYSTEMINFO_H.c.o
+/usr/bin/cc   -static-libgcc -pthread -Wno-psabi -std=gnu99 -maccumulate-outgoing-args -fno-unsafe-math-optimizations -fno-common -funswitch-loops  -Wall -Wextra -Wshadow -Wredundant-decls -Winline -Wdisabled-optimization -Wpointer-arith -Wcast-align -Wstrict-aliasing -Wstrict-aliasing=3 -Wswitch-enum -Wswitch-default -Wfloat-equal -Wwrite-strings -Wcomment -Wno-unknown-pragmas -fno-rounding-math -fno-math-errno -freg-struct-return     -o CMakeFiles/cmTC_dafbe.dir/HAVE_SYS_SYSTEMINFO_H.c.o   -c /mnt/c/Users/guoy18/change/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_SYSTEMINFO_H.c
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_SYSTEMINFO_H.c:2:10: fatal error: sys/systeminfo.h: No such file or directory
+    2 | #include <sys/systeminfo.h>
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_dafbe.dir/build.make:66: CMakeFiles/cmTC_dafbe.dir/HAVE_SYS_SYSTEMINFO_H.c.o] Error 1
+make[1]: Leaving directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_dafbe/fast] Error 2
+
+
+Source:
+/* */
+#include <sys/systeminfo.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/vmmeter.h exist failed with the following output:
+Change Dir: /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_53e82/fast && /usr/bin/make -f CMakeFiles/cmTC_53e82.dir/build.make CMakeFiles/cmTC_53e82.dir/build
+make[1]: Entering directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_53e82.dir/HAVE_SYS_VMMETER_H.c.o
+/usr/bin/cc   -static-libgcc -pthread -Wno-psabi -std=gnu99 -maccumulate-outgoing-args -fno-unsafe-math-optimizations -fno-common -funswitch-loops  -Wall -Wextra -Wshadow -Wredundant-decls -Winline -Wdisabled-optimization -Wpointer-arith -Wcast-align -Wstrict-aliasing -Wstrict-aliasing=3 -Wswitch-enum -Wswitch-default -Wfloat-equal -Wwrite-strings -Wcomment -Wno-unknown-pragmas -fno-rounding-math -fno-math-errno -freg-struct-return     -o CMakeFiles/cmTC_53e82.dir/HAVE_SYS_VMMETER_H.c.o   -c /mnt/c/Users/guoy18/change/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_VMMETER_H.c
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_VMMETER_H.c:2:10: fatal error: sys/vmmeter.h: No such file or directory
+    2 | #include <sys/vmmeter.h>
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_53e82.dir/build.make:66: CMakeFiles/cmTC_53e82.dir/HAVE_SYS_VMMETER_H.c.o] Error 1
+make[1]: Leaving directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_53e82/fast] Error 2
+
+
+Source:
+/* */
+#include <sys/vmmeter.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h exist failed with the following output:
+Change Dir: /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_243bd/fast && /usr/bin/make -f CMakeFiles/cmTC_243bd.dir/build.make CMakeFiles/cmTC_243bd.dir/build
+make[1]: Entering directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_243bd.dir/HAVE_WINDOWS_H.c.o
+/usr/bin/cc   -static-libgcc -pthread -Wno-psabi -std=gnu99 -maccumulate-outgoing-args -fno-unsafe-math-optimizations -fno-common -funswitch-loops  -Wall -Wextra -Wshadow -Wredundant-decls -Winline -Wdisabled-optimization -Wpointer-arith -Wcast-align -Wstrict-aliasing -Wstrict-aliasing=3 -Wswitch-enum -Wswitch-default -Wfloat-equal -Wwrite-strings -Wcomment -Wno-unknown-pragmas -fno-rounding-math -fno-math-errno -freg-struct-return     -o CMakeFiles/cmTC_243bd.dir/HAVE_WINDOWS_H.c.o   -c /mnt/c/Users/guoy18/change/build/CMakeFiles/CheckIncludeFiles/HAVE_WINDOWS_H.c
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckIncludeFiles/HAVE_WINDOWS_H.c:2:10: fatal error: windows.h: No such file or directory
+    2 | #include <windows.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_243bd.dir/build.make:66: CMakeFiles/cmTC_243bd.dir/HAVE_WINDOWS_H.c.o] Error 1
+make[1]: Leaving directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_243bd/fast] Error 2
+
+
+Source:
+/* */
+#include <windows.h>
+
+
+int main(void){return 0;}
+
+Determining if the function alloca exists failed with the following output:
+Change Dir: /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e576f/fast && /usr/bin/make -f CMakeFiles/cmTC_e576f.dir/build.make CMakeFiles/cmTC_e576f.dir/build
+make[1]: Entering directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e576f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -static-libgcc -pthread -Wno-psabi -std=gnu99 -maccumulate-outgoing-args -fno-unsafe-math-optimizations -fno-common -funswitch-loops  -Wall -Wextra -Wshadow -Wredundant-decls -Winline -Wdisabled-optimization -Wpointer-arith -Wcast-align -Wstrict-aliasing -Wstrict-aliasing=3 -Wswitch-enum -Wswitch-default -Wfloat-equal -Wwrite-strings -Wcomment -Wno-unknown-pragmas -fno-rounding-math -fno-math-errno -freg-struct-return  -DCHECK_FUNCTION_EXISTS=alloca   -o CMakeFiles/cmTC_e576f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘alloca’; expected ‘void *(long unsigned int)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_e576f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e576f.dir/link.txt --verbose=1
+/usr/bin/cc  -static-libgcc -pthread -Wno-psabi -std=gnu99 -maccumulate-outgoing-args -fno-unsafe-math-optimizations -fno-common -funswitch-loops  -Wall -Wextra -Wshadow -Wredundant-decls -Winline -Wdisabled-optimization -Wpointer-arith -Wcast-align -Wstrict-aliasing -Wstrict-aliasing=3 -Wswitch-enum -Wswitch-default -Wfloat-equal -Wwrite-strings -Wcomment -Wno-unknown-pragmas -fno-rounding-math -fno-math-errno -freg-struct-return  -DCHECK_FUNCTION_EXISTS=alloca    -rdynamic CMakeFiles/cmTC_e576f.dir/CheckFunctionExists.c.o  -o cmTC_e576f 
+/usr/bin/ld: CMakeFiles/cmTC_e576f.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x23): undefined reference to `alloca'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_e576f.dir/build.make:87: cmTC_e576f] Error 1
+make[1]: Leaving directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_e576f/fast] Error 2
+
+
+
+Determining if the function strdupa exists failed with the following output:
+Change Dir: /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_41d93/fast && /usr/bin/make -f CMakeFiles/cmTC_41d93.dir/build.make CMakeFiles/cmTC_41d93.dir/build
+make[1]: Entering directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_41d93.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -static-libgcc -pthread -Wno-psabi -std=gnu99 -maccumulate-outgoing-args -fno-unsafe-math-optimizations -fno-common -funswitch-loops  -Wall -Wextra -Wshadow -Wredundant-decls -Winline -Wdisabled-optimization -Wpointer-arith -Wcast-align -Wstrict-aliasing -Wstrict-aliasing=3 -Wswitch-enum -Wswitch-default -Wfloat-equal -Wwrite-strings -Wcomment -Wno-unknown-pragmas -fno-rounding-math -fno-math-errno -freg-struct-return  -DCHECK_FUNCTION_EXISTS=strdupa   -o CMakeFiles/cmTC_41d93.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_41d93
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41d93.dir/link.txt --verbose=1
+/usr/bin/cc  -static-libgcc -pthread -Wno-psabi -std=gnu99 -maccumulate-outgoing-args -fno-unsafe-math-optimizations -fno-common -funswitch-loops  -Wall -Wextra -Wshadow -Wredundant-decls -Winline -Wdisabled-optimization -Wpointer-arith -Wcast-align -Wstrict-aliasing -Wstrict-aliasing=3 -Wswitch-enum -Wswitch-default -Wfloat-equal -Wwrite-strings -Wcomment -Wno-unknown-pragmas -fno-rounding-math -fno-math-errno -freg-struct-return  -DCHECK_FUNCTION_EXISTS=strdupa    -rdynamic CMakeFiles/cmTC_41d93.dir/CheckFunctionExists.c.o  -o cmTC_41d93 
+/usr/bin/ld: CMakeFiles/cmTC_41d93.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `strdupa'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_41d93.dir/build.make:87: cmTC_41d93] Error 1
+make[1]: Leaving directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_41d93/fast] Error 2
+
+
+
+Determining if the function strlcat exists failed with the following output:
+Change Dir: /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b7486/fast && /usr/bin/make -f CMakeFiles/cmTC_b7486.dir/build.make CMakeFiles/cmTC_b7486.dir/build
+make[1]: Entering directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b7486.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -static-libgcc -pthread -Wno-psabi -std=gnu99 -maccumulate-outgoing-args -fno-unsafe-math-optimizations -fno-common -funswitch-loops  -Wall -Wextra -Wshadow -Wredundant-decls -Winline -Wdisabled-optimization -Wpointer-arith -Wcast-align -Wstrict-aliasing -Wstrict-aliasing=3 -Wswitch-enum -Wswitch-default -Wfloat-equal -Wwrite-strings -Wcomment -Wno-unknown-pragmas -fno-rounding-math -fno-math-errno -freg-struct-return  -DCHECK_FUNCTION_EXISTS=strlcat   -o CMakeFiles/cmTC_b7486.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b7486
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7486.dir/link.txt --verbose=1
+/usr/bin/cc  -static-libgcc -pthread -Wno-psabi -std=gnu99 -maccumulate-outgoing-args -fno-unsafe-math-optimizations -fno-common -funswitch-loops  -Wall -Wextra -Wshadow -Wredundant-decls -Winline -Wdisabled-optimization -Wpointer-arith -Wcast-align -Wstrict-aliasing -Wstrict-aliasing=3 -Wswitch-enum -Wswitch-default -Wfloat-equal -Wwrite-strings -Wcomment -Wno-unknown-pragmas -fno-rounding-math -fno-math-errno -freg-struct-return  -DCHECK_FUNCTION_EXISTS=strlcat    -rdynamic CMakeFiles/cmTC_b7486.dir/CheckFunctionExists.c.o  -o cmTC_b7486 
+/usr/bin/ld: CMakeFiles/cmTC_b7486.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `strlcat'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_b7486.dir/build.make:87: cmTC_b7486] Error 1
+make[1]: Leaving directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_b7486/fast] Error 2
+
+
+
+Determining if the function strlcpy exists failed with the following output:
+Change Dir: /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_df50e/fast && /usr/bin/make -f CMakeFiles/cmTC_df50e.dir/build.make CMakeFiles/cmTC_df50e.dir/build
+make[1]: Entering directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_df50e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -static-libgcc -pthread -Wno-psabi -std=gnu99 -maccumulate-outgoing-args -fno-unsafe-math-optimizations -fno-common -funswitch-loops  -Wall -Wextra -Wshadow -Wredundant-decls -Winline -Wdisabled-optimization -Wpointer-arith -Wcast-align -Wstrict-aliasing -Wstrict-aliasing=3 -Wswitch-enum -Wswitch-default -Wfloat-equal -Wwrite-strings -Wcomment -Wno-unknown-pragmas -fno-rounding-math -fno-math-errno -freg-struct-return  -DCHECK_FUNCTION_EXISTS=strlcpy   -o CMakeFiles/cmTC_df50e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_df50e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df50e.dir/link.txt --verbose=1
+/usr/bin/cc  -static-libgcc -pthread -Wno-psabi -std=gnu99 -maccumulate-outgoing-args -fno-unsafe-math-optimizations -fno-common -funswitch-loops  -Wall -Wextra -Wshadow -Wredundant-decls -Winline -Wdisabled-optimization -Wpointer-arith -Wcast-align -Wstrict-aliasing -Wstrict-aliasing=3 -Wswitch-enum -Wswitch-default -Wfloat-equal -Wwrite-strings -Wcomment -Wno-unknown-pragmas -fno-rounding-math -fno-math-errno -freg-struct-return  -DCHECK_FUNCTION_EXISTS=strlcpy    -rdynamic CMakeFiles/cmTC_df50e.dir/CheckFunctionExists.c.o  -o cmTC_df50e 
+/usr/bin/ld: CMakeFiles/cmTC_df50e.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `strlcpy'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_df50e.dir/build.make:87: cmTC_df50e] Error 1
+make[1]: Leaving directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_df50e/fast] Error 2
+
+
+
+Determining if the function res_init exists failed with the following output:
+Change Dir: /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2f606/fast && /usr/bin/make -f CMakeFiles/cmTC_2f606.dir/build.make CMakeFiles/cmTC_2f606.dir/build
+make[1]: Entering directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2f606.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -static-libgcc -pthread -Wno-psabi -std=gnu99 -maccumulate-outgoing-args -fno-unsafe-math-optimizations -fno-common -funswitch-loops  -Wall -Wextra -Wshadow -Wredundant-decls -Winline -Wdisabled-optimization -Wpointer-arith -Wcast-align -Wstrict-aliasing -Wstrict-aliasing=3 -Wswitch-enum -Wswitch-default -Wfloat-equal -Wwrite-strings -Wcomment -Wno-unknown-pragmas -fno-rounding-math -fno-math-errno -freg-struct-return  -DCHECK_FUNCTION_EXISTS=res_init   -o CMakeFiles/cmTC_2f606.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2f606
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f606.dir/link.txt --verbose=1
+/usr/bin/cc  -static-libgcc -pthread -Wno-psabi -std=gnu99 -maccumulate-outgoing-args -fno-unsafe-math-optimizations -fno-common -funswitch-loops  -Wall -Wextra -Wshadow -Wredundant-decls -Winline -Wdisabled-optimization -Wpointer-arith -Wcast-align -Wstrict-aliasing -Wstrict-aliasing=3 -Wswitch-enum -Wswitch-default -Wfloat-equal -Wwrite-strings -Wcomment -Wno-unknown-pragmas -fno-rounding-math -fno-math-errno -freg-struct-return  -DCHECK_FUNCTION_EXISTS=res_init    -rdynamic CMakeFiles/cmTC_2f606.dir/CheckFunctionExists.c.o  -o cmTC_2f606 
+/usr/bin/ld: CMakeFiles/cmTC_2f606.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `res_init'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_2f606.dir/build.make:87: cmTC_2f606] Error 1
+make[1]: Leaving directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_2f606/fast] Error 2
+
+
+
+Determining size of socklen_t failed with the following output:
+Change Dir: /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c5fa9/fast && /usr/bin/make -f CMakeFiles/cmTC_c5fa9.dir/build.make CMakeFiles/cmTC_c5fa9.dir/build
+make[1]: Entering directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c5fa9.dir/SOCKLEN_T.c.o
+/usr/bin/cc   -static-libgcc -pthread -Wno-psabi -std=gnu99 -maccumulate-outgoing-args -fno-unsafe-math-optimizations -fno-common -funswitch-loops  -Wall -Wextra -Wshadow -Wredundant-decls -Winline -Wdisabled-optimization -Wpointer-arith -Wcast-align -Wstrict-aliasing -Wstrict-aliasing=3 -Wswitch-enum -Wswitch-default -Wfloat-equal -Wwrite-strings -Wcomment -Wno-unknown-pragmas -fno-rounding-math -fno-math-errno -freg-struct-return     -o CMakeFiles/cmTC_c5fa9.dir/SOCKLEN_T.c.o   -c /mnt/c/Users/guoy18/change/build/CMakeFiles/CheckTypeSize/SOCKLEN_T.c
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckTypeSize/SOCKLEN_T.c:23:22: error: ‘socklen_t’ undeclared here (not in a function)
+   23 | #define SIZE (sizeof(socklen_t))
+      |                      ^~~~~~~~~
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckTypeSize/SOCKLEN_T.c:25:12: note: in expansion of macro ‘SIZE’
+   25 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+make[1]: *** [CMakeFiles/cmTC_c5fa9.dir/build.make:66: CMakeFiles/cmTC_c5fa9.dir/SOCKLEN_T.c.o] Error 1
+make[1]: Leaving directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_c5fa9/fast] Error 2
+
+
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckTypeSize/SOCKLEN_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(socklen_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of struct ether_addr failed with the following output:
+Change Dir: /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_55dc1/fast && /usr/bin/make -f CMakeFiles/cmTC_55dc1.dir/build.make CMakeFiles/cmTC_55dc1.dir/build
+make[1]: Entering directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_55dc1.dir/STRUCT_ETHER_ADDR.c.o
+/usr/bin/cc   -static-libgcc -pthread -Wno-psabi -std=gnu99 -maccumulate-outgoing-args -fno-unsafe-math-optimizations -fno-common -funswitch-loops  -Wall -Wextra -Wshadow -Wredundant-decls -Winline -Wdisabled-optimization -Wpointer-arith -Wcast-align -Wstrict-aliasing -Wstrict-aliasing=3 -Wswitch-enum -Wswitch-default -Wfloat-equal -Wwrite-strings -Wcomment -Wno-unknown-pragmas -fno-rounding-math -fno-math-errno -freg-struct-return     -o CMakeFiles/cmTC_55dc1.dir/STRUCT_ETHER_ADDR.c.o   -c /mnt/c/Users/guoy18/change/build/CMakeFiles/CheckTypeSize/STRUCT_ETHER_ADDR.c
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckTypeSize/STRUCT_ETHER_ADDR.c:23:22: error: invalid application of ‘sizeof’ to incomplete type ‘struct ether_addr’
+   23 | #define SIZE (sizeof(struct ether_addr))
+      |                      ^~~~~~
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckTypeSize/STRUCT_ETHER_ADDR.c:25:12: note: in expansion of macro ‘SIZE’
+   25 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckTypeSize/STRUCT_ETHER_ADDR.c:23:22: error: invalid application of ‘sizeof’ to incomplete type ‘struct ether_addr’
+   23 | #define SIZE (sizeof(struct ether_addr))
+      |                      ^~~~~~
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckTypeSize/STRUCT_ETHER_ADDR.c:26:12: note: in expansion of macro ‘SIZE’
+   26 |   ('0' + ((SIZE / 1000)%10)),
+      |            ^~~~
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckTypeSize/STRUCT_ETHER_ADDR.c:23:22: error: invalid application of ‘sizeof’ to incomplete type ‘struct ether_addr’
+   23 | #define SIZE (sizeof(struct ether_addr))
+      |                      ^~~~~~
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckTypeSize/STRUCT_ETHER_ADDR.c:27:12: note: in expansion of macro ‘SIZE’
+   27 |   ('0' + ((SIZE / 100)%10)),
+      |            ^~~~
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckTypeSize/STRUCT_ETHER_ADDR.c:23:22: error: invalid application of ‘sizeof’ to incomplete type ‘struct ether_addr’
+   23 | #define SIZE (sizeof(struct ether_addr))
+      |                      ^~~~~~
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckTypeSize/STRUCT_ETHER_ADDR.c:28:12: note: in expansion of macro ‘SIZE’
+   28 |   ('0' + ((SIZE / 10)%10)),
+      |            ^~~~
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckTypeSize/STRUCT_ETHER_ADDR.c:23:22: error: invalid application of ‘sizeof’ to incomplete type ‘struct ether_addr’
+   23 | #define SIZE (sizeof(struct ether_addr))
+      |                      ^~~~~~
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckTypeSize/STRUCT_ETHER_ADDR.c:29:12: note: in expansion of macro ‘SIZE’
+   29 |   ('0' +  (SIZE    % 10)),
+      |            ^~~~
+make[1]: *** [CMakeFiles/cmTC_55dc1.dir/build.make:66: CMakeFiles/cmTC_55dc1.dir/STRUCT_ETHER_ADDR.c.o] Error 1
+make[1]: Leaving directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_55dc1/fast] Error 2
+
+
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckTypeSize/STRUCT_ETHER_ADDR.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(struct ether_addr))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of struct ifconf failed with the following output:
+Change Dir: /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e14a3/fast && /usr/bin/make -f CMakeFiles/cmTC_e14a3.dir/build.make CMakeFiles/cmTC_e14a3.dir/build
+make[1]: Entering directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e14a3.dir/STRUCT_IFCONF.c.o
+/usr/bin/cc   -static-libgcc -pthread -Wno-psabi -std=gnu99 -maccumulate-outgoing-args -fno-unsafe-math-optimizations -fno-common -funswitch-loops  -Wall -Wextra -Wshadow -Wredundant-decls -Winline -Wdisabled-optimization -Wpointer-arith -Wcast-align -Wstrict-aliasing -Wstrict-aliasing=3 -Wswitch-enum -Wswitch-default -Wfloat-equal -Wwrite-strings -Wcomment -Wno-unknown-pragmas -fno-rounding-math -fno-math-errno -freg-struct-return     -o CMakeFiles/cmTC_e14a3.dir/STRUCT_IFCONF.c.o   -c /mnt/c/Users/guoy18/change/build/CMakeFiles/CheckTypeSize/STRUCT_IFCONF.c
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckTypeSize/STRUCT_IFCONF.c:23:22: error: invalid application of ‘sizeof’ to incomplete type ‘struct ifconf’
+   23 | #define SIZE (sizeof(struct ifconf))
+      |                      ^~~~~~
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckTypeSize/STRUCT_IFCONF.c:25:12: note: in expansion of macro ‘SIZE’
+   25 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckTypeSize/STRUCT_IFCONF.c:23:22: error: invalid application of ‘sizeof’ to incomplete type ‘struct ifconf’
+   23 | #define SIZE (sizeof(struct ifconf))
+      |                      ^~~~~~
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckTypeSize/STRUCT_IFCONF.c:26:12: note: in expansion of macro ‘SIZE’
+   26 |   ('0' + ((SIZE / 1000)%10)),
+      |            ^~~~
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckTypeSize/STRUCT_IFCONF.c:23:22: error: invalid application of ‘sizeof’ to incomplete type ‘struct ifconf’
+   23 | #define SIZE (sizeof(struct ifconf))
+      |                      ^~~~~~
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckTypeSize/STRUCT_IFCONF.c:27:12: note: in expansion of macro ‘SIZE’
+   27 |   ('0' + ((SIZE / 100)%10)),
+      |            ^~~~
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckTypeSize/STRUCT_IFCONF.c:23:22: error: invalid application of ‘sizeof’ to incomplete type ‘struct ifconf’
+   23 | #define SIZE (sizeof(struct ifconf))
+      |                      ^~~~~~
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckTypeSize/STRUCT_IFCONF.c:28:12: note: in expansion of macro ‘SIZE’
+   28 |   ('0' + ((SIZE / 10)%10)),
+      |            ^~~~
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckTypeSize/STRUCT_IFCONF.c:23:22: error: invalid application of ‘sizeof’ to incomplete type ‘struct ifconf’
+   23 | #define SIZE (sizeof(struct ifconf))
+      |                      ^~~~~~
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckTypeSize/STRUCT_IFCONF.c:29:12: note: in expansion of macro ‘SIZE’
+   29 |   ('0' +  (SIZE    % 10)),
+      |            ^~~~
+make[1]: *** [CMakeFiles/cmTC_e14a3.dir/build.make:66: CMakeFiles/cmTC_e14a3.dir/STRUCT_IFCONF.c.o] Error 1
+make[1]: Leaving directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_e14a3/fast] Error 2
+
+
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckTypeSize/STRUCT_IFCONF.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(struct ifconf))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of struct ifreq failed with the following output:
+Change Dir: /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_56ac9/fast && /usr/bin/make -f CMakeFiles/cmTC_56ac9.dir/build.make CMakeFiles/cmTC_56ac9.dir/build
+make[1]: Entering directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_56ac9.dir/STRUCT_IFREQ.c.o
+/usr/bin/cc   -static-libgcc -pthread -Wno-psabi -std=gnu99 -maccumulate-outgoing-args -fno-unsafe-math-optimizations -fno-common -funswitch-loops  -Wall -Wextra -Wshadow -Wredundant-decls -Winline -Wdisabled-optimization -Wpointer-arith -Wcast-align -Wstrict-aliasing -Wstrict-aliasing=3 -Wswitch-enum -Wswitch-default -Wfloat-equal -Wwrite-strings -Wcomment -Wno-unknown-pragmas -fno-rounding-math -fno-math-errno -freg-struct-return     -o CMakeFiles/cmTC_56ac9.dir/STRUCT_IFREQ.c.o   -c /mnt/c/Users/guoy18/change/build/CMakeFiles/CheckTypeSize/STRUCT_IFREQ.c
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckTypeSize/STRUCT_IFREQ.c:23:22: error: invalid application of ‘sizeof’ to incomplete type ‘struct ifreq’
+   23 | #define SIZE (sizeof(struct ifreq))
+      |                      ^~~~~~
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckTypeSize/STRUCT_IFREQ.c:25:12: note: in expansion of macro ‘SIZE’
+   25 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckTypeSize/STRUCT_IFREQ.c:23:22: error: invalid application of ‘sizeof’ to incomplete type ‘struct ifreq’
+   23 | #define SIZE (sizeof(struct ifreq))
+      |                      ^~~~~~
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckTypeSize/STRUCT_IFREQ.c:26:12: note: in expansion of macro ‘SIZE’
+   26 |   ('0' + ((SIZE / 1000)%10)),
+      |            ^~~~
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckTypeSize/STRUCT_IFREQ.c:23:22: error: invalid application of ‘sizeof’ to incomplete type ‘struct ifreq’
+   23 | #define SIZE (sizeof(struct ifreq))
+      |                      ^~~~~~
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckTypeSize/STRUCT_IFREQ.c:27:12: note: in expansion of macro ‘SIZE’
+   27 |   ('0' + ((SIZE / 100)%10)),
+      |            ^~~~
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckTypeSize/STRUCT_IFREQ.c:23:22: error: invalid application of ‘sizeof’ to incomplete type ‘struct ifreq’
+   23 | #define SIZE (sizeof(struct ifreq))
+      |                      ^~~~~~
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckTypeSize/STRUCT_IFREQ.c:28:12: note: in expansion of macro ‘SIZE’
+   28 |   ('0' + ((SIZE / 10)%10)),
+      |            ^~~~
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckTypeSize/STRUCT_IFREQ.c:23:22: error: invalid application of ‘sizeof’ to incomplete type ‘struct ifreq’
+   23 | #define SIZE (sizeof(struct ifreq))
+      |                      ^~~~~~
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckTypeSize/STRUCT_IFREQ.c:29:12: note: in expansion of macro ‘SIZE’
+   29 |   ('0' +  (SIZE    % 10)),
+      |            ^~~~
+make[1]: *** [CMakeFiles/cmTC_56ac9.dir/build.make:66: CMakeFiles/cmTC_56ac9.dir/STRUCT_IFREQ.c.o] Error 1
+make[1]: Leaving directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_56ac9/fast] Error 2
+
+
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckTypeSize/STRUCT_IFREQ.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(struct ifreq))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of struct lifconf failed with the following output:
+Change Dir: /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f9b0a/fast && /usr/bin/make -f CMakeFiles/cmTC_f9b0a.dir/build.make CMakeFiles/cmTC_f9b0a.dir/build
+make[1]: Entering directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f9b0a.dir/STRUCT_LIFCONF.c.o
+/usr/bin/cc   -static-libgcc -pthread -Wno-psabi -std=gnu99 -maccumulate-outgoing-args -fno-unsafe-math-optimizations -fno-common -funswitch-loops  -Wall -Wextra -Wshadow -Wredundant-decls -Winline -Wdisabled-optimization -Wpointer-arith -Wcast-align -Wstrict-aliasing -Wstrict-aliasing=3 -Wswitch-enum -Wswitch-default -Wfloat-equal -Wwrite-strings -Wcomment -Wno-unknown-pragmas -fno-rounding-math -fno-math-errno -freg-struct-return     -o CMakeFiles/cmTC_f9b0a.dir/STRUCT_LIFCONF.c.o   -c /mnt/c/Users/guoy18/change/build/CMakeFiles/CheckTypeSize/STRUCT_LIFCONF.c
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckTypeSize/STRUCT_LIFCONF.c:23:22: error: invalid application of ‘sizeof’ to incomplete type ‘struct lifconf’
+   23 | #define SIZE (sizeof(struct lifconf))
+      |                      ^~~~~~
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckTypeSize/STRUCT_LIFCONF.c:25:12: note: in expansion of macro ‘SIZE’
+   25 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckTypeSize/STRUCT_LIFCONF.c:23:22: error: invalid application of ‘sizeof’ to incomplete type ‘struct lifconf’
+   23 | #define SIZE (sizeof(struct lifconf))
+      |                      ^~~~~~
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckTypeSize/STRUCT_LIFCONF.c:26:12: note: in expansion of macro ‘SIZE’
+   26 |   ('0' + ((SIZE / 1000)%10)),
+      |            ^~~~
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckTypeSize/STRUCT_LIFCONF.c:23:22: error: invalid application of ‘sizeof’ to incomplete type ‘struct lifconf’
+   23 | #define SIZE (sizeof(struct lifconf))
+      |                      ^~~~~~
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckTypeSize/STRUCT_LIFCONF.c:27:12: note: in expansion of macro ‘SIZE’
+   27 |   ('0' + ((SIZE / 100)%10)),
+      |            ^~~~
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckTypeSize/STRUCT_LIFCONF.c:23:22: error: invalid application of ‘sizeof’ to incomplete type ‘struct lifconf’
+   23 | #define SIZE (sizeof(struct lifconf))
+      |                      ^~~~~~
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckTypeSize/STRUCT_LIFCONF.c:28:12: note: in expansion of macro ‘SIZE’
+   28 |   ('0' + ((SIZE / 10)%10)),
+      |            ^~~~
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckTypeSize/STRUCT_LIFCONF.c:23:22: error: invalid application of ‘sizeof’ to incomplete type ‘struct lifconf’
+   23 | #define SIZE (sizeof(struct lifconf))
+      |                      ^~~~~~
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckTypeSize/STRUCT_LIFCONF.c:29:12: note: in expansion of macro ‘SIZE’
+   29 |   ('0' +  (SIZE    % 10)),
+      |            ^~~~
+make[1]: *** [CMakeFiles/cmTC_f9b0a.dir/build.make:66: CMakeFiles/cmTC_f9b0a.dir/STRUCT_LIFCONF.c.o] Error 1
+make[1]: Leaving directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_f9b0a/fast] Error 2
+
+
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckTypeSize/STRUCT_LIFCONF.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(struct lifconf))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function XScreenSaverRegister exists in the Xss failed with the following output:
+Change Dir: /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0d32d/fast && /usr/bin/make -f CMakeFiles/cmTC_0d32d.dir/build.make CMakeFiles/cmTC_0d32d.dir/build
+make[1]: Entering directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0d32d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -static-libgcc -pthread -Wno-psabi -std=gnu99 -maccumulate-outgoing-args -fno-unsafe-math-optimizations -fno-common -funswitch-loops  -Wall -Wextra -Wshadow -Wredundant-decls -Winline -Wdisabled-optimization -Wpointer-arith -Wcast-align -Wstrict-aliasing -Wstrict-aliasing=3 -Wswitch-enum -Wswitch-default -Wfloat-equal -Wwrite-strings -Wcomment -Wno-unknown-pragmas -fno-rounding-math -fno-math-errno -freg-struct-return  -DCHECK_FUNCTION_EXISTS=XScreenSaverRegister   -o CMakeFiles/cmTC_0d32d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0d32d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d32d.dir/link.txt --verbose=1
+/usr/bin/cc  -static-libgcc -pthread -Wno-psabi -std=gnu99 -maccumulate-outgoing-args -fno-unsafe-math-optimizations -fno-common -funswitch-loops  -Wall -Wextra -Wshadow -Wredundant-decls -Winline -Wdisabled-optimization -Wpointer-arith -Wcast-align -Wstrict-aliasing -Wstrict-aliasing=3 -Wswitch-enum -Wswitch-default -Wfloat-equal -Wwrite-strings -Wcomment -Wno-unknown-pragmas -fno-rounding-math -fno-math-errno -freg-struct-return  -DCHECK_FUNCTION_EXISTS=XScreenSaverRegister    -rdynamic CMakeFiles/cmTC_0d32d.dir/CheckFunctionExists.c.o  -o cmTC_0d32d  -lXss 
+/usr/bin/ld: cannot find -lXss
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_0d32d.dir/build.make:87: cmTC_0d32d] Error 1
+make[1]: Leaving directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_0d32d/fast] Error 2
+
+
+
+Determining if files direct.h exist failed with the following output:
+Change Dir: /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1cdd2/fast && /usr/bin/make -f CMakeFiles/cmTC_1cdd2.dir/build.make CMakeFiles/cmTC_1cdd2.dir/build
+make[1]: Entering directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1cdd2.dir/HAVE_DIRECT_H.c.o
+/usr/bin/cc   -static-libgcc -pthread -Wno-psabi -std=gnu99 -maccumulate-outgoing-args -fno-unsafe-math-optimizations -fno-common -funswitch-loops  -Wall -Wextra -Wshadow -Wredundant-decls -Winline -Wdisabled-optimization -Wpointer-arith -Wcast-align -Wstrict-aliasing -Wstrict-aliasing=3 -Wswitch-enum -Wswitch-default -Wfloat-equal -Wwrite-strings -Wcomment -Wno-unknown-pragmas -fno-rounding-math -fno-math-errno -freg-struct-return     -o CMakeFiles/cmTC_1cdd2.dir/HAVE_DIRECT_H.c.o   -c /mnt/c/Users/guoy18/change/build/CMakeFiles/CheckIncludeFiles/HAVE_DIRECT_H.c
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckIncludeFiles/HAVE_DIRECT_H.c:2:10: fatal error: direct.h: No such file or directory
+    2 | #include <direct.h>
+      |          ^~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_1cdd2.dir/build.make:66: CMakeFiles/cmTC_1cdd2.dir/HAVE_DIRECT_H.c.o] Error 1
+make[1]: Leaving directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_1cdd2/fast] Error 2
+
+
+Source:
+/* */
+#include <direct.h>
+
+
+int main(void){return 0;}
+
+Determining if files process.h exist failed with the following output:
+Change Dir: /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_83239/fast && /usr/bin/make -f CMakeFiles/cmTC_83239.dir/build.make CMakeFiles/cmTC_83239.dir/build
+make[1]: Entering directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_83239.dir/HAVE_PROCESS_H.c.o
+/usr/bin/cc   -static-libgcc -pthread -Wno-psabi -std=gnu99 -maccumulate-outgoing-args -fno-unsafe-math-optimizations -fno-common -funswitch-loops  -Wall -Wextra -Wshadow -Wredundant-decls -Winline -Wdisabled-optimization -Wpointer-arith -Wcast-align -Wstrict-aliasing -Wstrict-aliasing=3 -Wswitch-enum -Wswitch-default -Wfloat-equal -Wwrite-strings -Wcomment -Wno-unknown-pragmas -fno-rounding-math -fno-math-errno -freg-struct-return     -o CMakeFiles/cmTC_83239.dir/HAVE_PROCESS_H.c.o   -c /mnt/c/Users/guoy18/change/build/CMakeFiles/CheckIncludeFiles/HAVE_PROCESS_H.c
+/mnt/c/Users/guoy18/change/build/CMakeFiles/CheckIncludeFiles/HAVE_PROCESS_H.c:2:10: fatal error: process.h: No such file or directory
+    2 | #include <process.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_83239.dir/build.make:66: CMakeFiles/cmTC_83239.dir/HAVE_PROCESS_H.c.o] Error 1
+make[1]: Leaving directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_83239/fast] Error 2
+
+
+Source:
+/* */
+#include <process.h>
+
+
+int main(void){return 0;}
+
+Determining if the function _aligned_malloc exists failed with the following output:
+Change Dir: /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e592e/fast && /usr/bin/make -f CMakeFiles/cmTC_e592e.dir/build.make CMakeFiles/cmTC_e592e.dir/build
+make[1]: Entering directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e592e.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -I/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp/malloc.h  -static-libgcc -pthread -Wno-psabi -std=gnu99 -maccumulate-outgoing-args -fno-unsafe-math-optimizations -fno-common -funswitch-loops  -Wall -Wextra -Wshadow -Wredundant-decls -Winline -Wdisabled-optimization -Wpointer-arith -Wcast-align -Wstrict-aliasing -Wstrict-aliasing=3 -Wswitch-enum -Wswitch-default -Wfloat-equal -Wwrite-strings -Wcomment -Wno-unknown-pragmas -fno-rounding-math -fno-math-errno -freg-struct-return  -DCHECK_FUNCTION_EXISTS=_aligned_malloc   -o CMakeFiles/cmTC_e592e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e592e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e592e.dir/link.txt --verbose=1
+/usr/bin/cc  -static-libgcc -pthread -Wno-psabi -std=gnu99 -maccumulate-outgoing-args -fno-unsafe-math-optimizations -fno-common -funswitch-loops  -Wall -Wextra -Wshadow -Wredundant-decls -Winline -Wdisabled-optimization -Wpointer-arith -Wcast-align -Wstrict-aliasing -Wstrict-aliasing=3 -Wswitch-enum -Wswitch-default -Wfloat-equal -Wwrite-strings -Wcomment -Wno-unknown-pragmas -fno-rounding-math -fno-math-errno -freg-struct-return  -DCHECK_FUNCTION_EXISTS=_aligned_malloc    -rdynamic CMakeFiles/cmTC_e592e.dir/CheckFunctionExists.c.o  -o cmTC_e592e 
+/usr/bin/ld: CMakeFiles/cmTC_e592e.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `_aligned_malloc'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_e592e.dir/build.make:87: cmTC_e592e] Error 1
+make[1]: Leaving directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_e592e/fast] Error 2
+
+
+
+Determining if the function __mingw_aligned_malloc exists failed with the following output:
+Change Dir: /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d4ce3/fast && /usr/bin/make -f CMakeFiles/cmTC_d4ce3.dir/build.make CMakeFiles/cmTC_d4ce3.dir/build
+make[1]: Entering directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d4ce3.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -I/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp/malloc.h  -static-libgcc -pthread -Wno-psabi -std=gnu99 -maccumulate-outgoing-args -fno-unsafe-math-optimizations -fno-common -funswitch-loops  -Wall -Wextra -Wshadow -Wredundant-decls -Winline -Wdisabled-optimization -Wpointer-arith -Wcast-align -Wstrict-aliasing -Wstrict-aliasing=3 -Wswitch-enum -Wswitch-default -Wfloat-equal -Wwrite-strings -Wcomment -Wno-unknown-pragmas -fno-rounding-math -fno-math-errno -freg-struct-return  -DCHECK_FUNCTION_EXISTS=__mingw_aligned_malloc   -o CMakeFiles/cmTC_d4ce3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d4ce3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4ce3.dir/link.txt --verbose=1
+/usr/bin/cc  -static-libgcc -pthread -Wno-psabi -std=gnu99 -maccumulate-outgoing-args -fno-unsafe-math-optimizations -fno-common -funswitch-loops  -Wall -Wextra -Wshadow -Wredundant-decls -Winline -Wdisabled-optimization -Wpointer-arith -Wcast-align -Wstrict-aliasing -Wstrict-aliasing=3 -Wswitch-enum -Wswitch-default -Wfloat-equal -Wwrite-strings -Wcomment -Wno-unknown-pragmas -fno-rounding-math -fno-math-errno -freg-struct-return  -DCHECK_FUNCTION_EXISTS=__mingw_aligned_malloc    -rdynamic CMakeFiles/cmTC_d4ce3.dir/CheckFunctionExists.c.o  -o cmTC_d4ce3 
+/usr/bin/ld: CMakeFiles/cmTC_d4ce3.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `__mingw_aligned_malloc'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_d4ce3.dir/build.make:87: cmTC_d4ce3] Error 1
+make[1]: Leaving directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_d4ce3/fast] Error 2
+
+
+
+Determining if the function mach_absolute_time exists failed with the following output:
+Change Dir: /mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_12ecf/fast && /usr/bin/make -f CMakeFiles/cmTC_12ecf.dir/build.make CMakeFiles/cmTC_12ecf.dir/build
+make[1]: Entering directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_12ecf.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -I/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp/mach/mach_time.h  -static-libgcc -pthread -Wno-psabi -std=gnu99 -maccumulate-outgoing-args -fno-unsafe-math-optimizations -fno-common -funswitch-loops  -Wall -Wextra -Wshadow -Wredundant-decls -Winline -Wdisabled-optimization -Wpointer-arith -Wcast-align -Wstrict-aliasing -Wstrict-aliasing=3 -Wswitch-enum -Wswitch-default -Wfloat-equal -Wwrite-strings -Wcomment -Wno-unknown-pragmas -fno-rounding-math -fno-math-errno -freg-struct-return  -DCHECK_FUNCTION_EXISTS=mach_absolute_time   -o CMakeFiles/cmTC_12ecf.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_12ecf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12ecf.dir/link.txt --verbose=1
+/usr/bin/cc  -static-libgcc -pthread -Wno-psabi -std=gnu99 -maccumulate-outgoing-args -fno-unsafe-math-optimizations -fno-common -funswitch-loops  -Wall -Wextra -Wshadow -Wredundant-decls -Winline -Wdisabled-optimization -Wpointer-arith -Wcast-align -Wstrict-aliasing -Wstrict-aliasing=3 -Wswitch-enum -Wswitch-default -Wfloat-equal -Wwrite-strings -Wcomment -Wno-unknown-pragmas -fno-rounding-math -fno-math-errno -freg-struct-return  -DCHECK_FUNCTION_EXISTS=mach_absolute_time    -rdynamic CMakeFiles/cmTC_12ecf.dir/CheckFunctionExists.c.o  -o cmTC_12ecf 
+/usr/bin/ld: CMakeFiles/cmTC_12ecf.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `mach_absolute_time'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_12ecf.dir/build.make:87: cmTC_12ecf] Error 1
+make[1]: Leaving directory '/mnt/c/Users/guoy18/change/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_12ecf/fast] Error 2
+
+
+
