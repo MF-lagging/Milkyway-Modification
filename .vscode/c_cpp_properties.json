@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "\\milkywayathome_client\\nbody\\include\\",
+                "\\milkywayathome_client\\nbody\\src\\",
+                "${workspaceFolder}/milkywayathome_client/nbody/include",
+                "${workspaceFolder}/milkywayathome_client/milkyway/include",
+                "${workspaceFolder}/build/include",
+                "${workspaceFolder}/milkywayathome_client/crlibm",
+                "${workspaceFolder}/milkywayathome_client/lua/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.22621.0",
+            "compilerPath": "cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-msvc-x64"
+        }
+    ],
+    "version": 4
+}

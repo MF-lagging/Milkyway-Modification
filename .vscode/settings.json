@@ -1,0 +1,12 @@
+{
+  "files.associations": {
+    "*.vue": "vue",
+    "*.wpy": "vue",
+    "*.wxml": "html",
+    "*.wxss": "css",
+    "nbody_priv.h": "c",
+    "nbody_types.h": "c",
+    "milkyway_util.h": "c",
+    "milkyway_boinc_util.h": "c"
+  }
+}
